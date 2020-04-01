@@ -17,9 +17,9 @@ export default () => (
     <section className="pt-20 md:pt-40 landing-section">
       <div className="container mx-auto px-8 lg:flex">
         <div className="text-center lg:text-left lg:w-1/2">
-          {/* <h1 className="text-4xl lg:text-5xl xl:text-6xl font-bold leading-none">
-            #Updatestudios - [social]
-          </h1> */}
+          <h1 className="text-4xl lg:text-5xl xl:text-6xl font-bold leading-none">
+            Update Studios
+          </h1>
           <p className="text-xl lg:text-2xl mt-6 font-light">
           Update Studios is an independent pre-production, production and post-production studio that specializes in video editing, 
           color grading, dubbing, Foley recording, chroma key green room studio with standard lights and equipments & preview theatre 
@@ -33,7 +33,7 @@ export default () => (
       </div>
     </section>
     <div className="feature-header">
-      <h2 className="text-center text-3xl lg:text-5xl font-semibold">Main Features</h2>
+      <h2 className="text-center text-3xl lg:text-5xl font-semibold">Our Services</h2>
     </div>
     <SplitSection
       id="voice-recording"
@@ -122,23 +122,19 @@ export default () => (
     />
     <section id="stats" className="py-20 lg:pt-32">
       <div className="container mx-auto text-center">
-        <LabelText className="text-gray-600">Our customers get results</LabelText>
-        <div className="flex flex-col sm:flex-row mt-8 lg:px-24">
-          <div className="w-full sm:w-1/3">
-            <StatsBox primaryText="+100%" secondaryText="Stats Information" />
-          </div>
-          <div className="w-full sm:w-1/3">
-            <StatsBox primaryText="+100%" secondaryText="Stats Information" />
-          </div>
-          <div className="w-full sm:w-1/3">
-            <StatsBox primaryText="+100%" secondaryText="Stats Information" />
-          </div>
-        </div>
+        <LabelText className="text-gray-600">About Us</LabelText>
+        <p className="text-xl lg:text-2xl mt-6 font-light">
+        I am Shamir (M.Tech Multimedia) proprietor of Update Studios. 
+        I started my career as a video editor, later became sound engineer (Foley sound & mixing) & started executing colour grading works. 
+        I am working with many famous YouTube channels like Eruma Saani, Nakkalites, Thiruvilaiyadal, Banana talkies, etc. 
+        I have worked for the feature films Amadai padai 2 with director Manivannan sir & also with director Ram in Peranbu. 
+        I work dedicatedly with passion to offer quality services to the clients.
+          </p>
       </div>
     </section>
     <section id="testimonials" className="py-20 lg:py-40">
       <div className="container mx-auto">
-        <LabelText className="mb-8 text-gray-600 text-center">What customers are saying</LabelText>
+        <LabelText className="mb-8 text-gray-600 text-center">Update Studio In Press</LabelText>
         <div className="flex flex-col md:flex-row md:-mx-3">
           {customerData.map(customer => (
             <div key={customer.customerName} className="flex-1 px-3">
@@ -149,7 +145,7 @@ export default () => (
       </div>
     </section>
     <section className="container mx-auto my-20 py-24 bg-gray-200 rounded-lg text-center">
-      <h3 className="text-5xl font-semibold">Ready to grow your business?</h3>
+      <h3 className="text-5xl font-semibold">Locate Us</h3>
       <p className="mt-8 text-xl font-light">
         Quis lectus nulla at volutpat diam ut. Enim lobortis scelerisque fermentum dui faucibus in.
       </p>
