@@ -1,6 +1,6 @@
 import React from 'react';
 import Button from '../components/Button';
-import Card from '../components/Card';
+// import Card from '../components/Card';
 import CustomerCard from '../components/CustomerCard';
 import LabelText from '../components/LabelText';
 import Layout from '../components/layout/Layout';
@@ -10,70 +10,38 @@ import customerData from '../data/customer-data';
 import HeroImage from '../svg/HeroImage';
 import SvgCharts from '../svg/SvgCharts';
 
+import './index.css';
+
 export default () => (
   <Layout>
-    <section className="pt-20 md:pt-40">
+    <section className="pt-20 md:pt-40 landing-section">
       <div className="container mx-auto px-8 lg:flex">
         <div className="text-center lg:text-left lg:w-1/2">
           <h1 className="text-4xl lg:text-5xl xl:text-6xl font-bold leading-none">
-            Main title of your landing page
+            #Updatestudios - [social]
           </h1>
           <p className="text-xl lg:text-2xl mt-6 font-light">
-            Free landing page template to promote your business startup and generate leads for the
-            offered services
+          Update Studios is an independent pre-production, production and post-production studio that specializes in video editing, 
+          color grading, dubbing, Foley recording, chroma key green room studio with standard lights and equipments & preview theatre 
+          for screening films and discussion purposes. The studio ensures confidentiality of the projects and works for the satisfaction 
+          of the clients.
           </p>
-          <p className="mt-8 md:mt-12">
-            <Button size="lg">Get Started</Button>
-          </p>
-          <p className="mt-4 text-gray-600">Sed fermentum felis ut cursu</p>
         </div>
         <div className="lg:w-1/2">
           <HeroImage />
         </div>
       </div>
     </section>
-    <section id="features" className="py-20 lg:pb-40 lg:pt-48">
-      <div className="container mx-auto text-center">
-        <h2 className="text-3xl lg:text-5xl font-semibold">Main Features</h2>
-        <div className="flex flex-col sm:flex-row sm:-mx-3 mt-12">
-          <div className="flex-1 px-3">
-            <Card className="mb-8">
-              <p className="font-semibold text-xl">Service One</p>
-              <p className="mt-4">
-                An enim nullam tempor gravida donec enim ipsum blandit porta justo integer odio
-                velna vitae auctor integer.
-              </p>
-            </Card>
-          </div>
-          <div className="flex-1 px-3">
-            <Card className="mb-8">
-              <p className="font-semibold text-xl">Service Two</p>
-              <p className="mt-4">
-                An enim nullam tempor gravida donec enim ipsum blandit porta justo integer odio
-                velna vitae auctor integer.
-              </p>
-            </Card>
-          </div>
-          <div className="flex-1 px-3">
-            <Card className="mb-8">
-              <p className="font-semibold text-xl">Service Three</p>
-              <p className="mt-4">
-                An enim nullam tempor gravida donec enim ipsum blandit porta justo integer odio
-                velna vitae auctor integer.
-              </p>
-            </Card>
-          </div>
-        </div>
-      </div>
-    </section>
+    <div className="feature-header">
+      <h2 className="text-center text-3xl lg:text-5xl font-semibold">Main Features</h2>
+    </div>
     <SplitSection
-      id="services"
+      id="voice-recording"
       primarySlot={
         <div className="lg:pr-32 xl:pr-48">
-          <h3 className="text-3xl font-semibold leading-tight">Market Analysis</h3>
+          <h3 className="text-3xl font-semibold leading-tight">Voice Recording</h3>
           <p className="mt-8 text-xl font-light leading-relaxed">
-            Our team of enthusiastic marketers will analyse and evaluate how your company stacks
-            against the closest competitors
+          Destination for all your voiceovers, recordings and dubbing needs.
           </p>
         </div>
       }
@@ -81,28 +49,72 @@ export default () => (
     />
     <SplitSection
       reverseOrder
+      id="sound-effects"
       primarySlot={
         <div className="lg:pl-32 xl:pl-48">
           <h3 className="text-3xl font-semibold leading-tight">
-            Design And Plan Your Business Growth Steps
+          Sound Effects
           </h3>
           <p className="mt-8 text-xl font-light leading-relaxed">
-            Once the market analysis process is completed our staff will search for opportunities
-            that are in reach
+          Record & recreate the sound effects present in the picture without any compromise.
           </p>
         </div>
       }
       secondarySlot={<SvgCharts />}
     />
     <SplitSection
+      id="video-editing"
       primarySlot={
         <div className="lg:pr-32 xl:pr-48">
           <h3 className="text-3xl font-semibold leading-tight">
-            Search For Performance Optimization
+          Video Editing
           </h3>
           <p className="mt-8 text-xl font-light leading-relaxed">
-            With all the information in place you will be presented with an action plan that your
-            company needs to follow
+          Edit with powerful Apple editing workstation (FCPX) for video post-production 
+          </p>
+        </div>
+      }
+      secondarySlot={<SvgCharts />}
+    /> 
+    <SplitSection
+      reverseOrder
+      id="color-grading"
+      primarySlot={
+        <div className="lg:pl-32 xl:pl-48">
+          <h3 className="text-3xl font-semibold leading-tight">
+          Color Grading
+          </h3>
+          <p className="mt-8 text-xl font-light leading-relaxed">
+          Color Grade your video with very powerful Apple workstation.
+          </p>
+        </div>
+      }
+      secondarySlot={<SvgCharts />}
+    />
+    <SplitSection
+      id="green-matte-studio"
+      primarySlot={
+        <div className="lg:pl-32 xl:pl-48">
+          <h3 className="text-3xl font-semibold leading-tight">
+          Green Matte Studio
+          </h3>
+          <p className="mt-8 text-xl font-light leading-relaxed">
+          Cyclorama Infinity curve green matte studio for CG works equipped with CRI 90+ cinema standard LED light & all camera equipment.
+          </p>
+        </div>
+      }
+      secondarySlot={<SvgCharts />}
+    />
+    <SplitSection
+      reverseOrder
+      id="preview-theatre"
+      primarySlot={
+        <div className="lg:pl-32 xl:pl-48">
+          <h3 className="text-3xl font-semibold leading-tight">
+          Preview Theatre
+          </h3>
+          <p className="mt-8 text-xl font-light leading-relaxed">
+          A theatre to screen films, teach and discuss.
           </p>
         </div>
       }

@@ -13,21 +13,24 @@ const Header = () => (
         Update Studios
       </div>
       <div className="flex mt-4 sm:mt-0">
-        <AnchorLink className="px-4" href="#features">
-          Features
+        <AnchorLink className="px-4" href="#voice-recording">
+          Recording
         </AnchorLink>
-        <AnchorLink className="px-4" href="#services">
-          Services
+        <AnchorLink className="px-4" href="#sound-effects">
+          SFX
         </AnchorLink>
-        <AnchorLink className="px-4" href="#stats">
-          Stats
+        <AnchorLink className="px-4" href="#video-editing">
+          Editing
         </AnchorLink>
-        <AnchorLink className="px-4" href="#testimonials">
-          Testimonials
+        <AnchorLink className="px-4" href="#color-grading">
+          Color Grading
         </AnchorLink>
-      </div>
-      <div className="hidden md:block">
-        <Button className="text-sm">Start Free Trial</Button>
+        <AnchorLink className="px-4" href="#green-matte-studio">
+          Green Matte
+        </AnchorLink>
+        <AnchorLink className="px-4" href="#preview-theatre">
+          Theatre
+        </AnchorLink>
       </div>
     </div>
   </header>
