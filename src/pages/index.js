@@ -9,6 +9,7 @@ import StatsBox from '../components/StatsBox';
 import customerData from '../data/customer-data';
 import HeroImage from '../svg/HeroImage';
 import SvgCharts from '../svg/SvgCharts';
+import { Link, graphql } from 'gatsby';
 
 import './index.css';
 
@@ -21,11 +22,13 @@ export default () => (
             Update Studios
           </h1>
           <p className="text-xl lg:text-2xl mt-6 font-light">
-          Update Studios is an independent pre-production, production and post-production studio that specializes in video editing, 
-          color grading, dubbing, Foley recording, chroma key green room studio with standard lights and equipments & preview theatre 
-          for screening films and discussion purposes. The studio ensures confidentiality of the projects and works for the satisfaction 
-          of the clients.
+            Update Studios is an independent pre-production, production and post-production studio
+            that specializes in video editing, color grading, dubbing, Foley recording, chroma key
+            green room studio with standard lights and equipments & preview theatre for screening
+            films and discussion purposes. The studio ensures confidentiality of the projects and
+            works for the satisfaction of the clients.
           </p>
+          <Link to="/orbit/">orbit</Link>
         </div>
         <div className="lg:w-1/2">
           <HeroImage />
@@ -41,7 +44,7 @@ export default () => (
         <div className="lg:pr-32 xl:pr-48">
           <h3 className="text-3xl font-semibold leading-tight">Voice Recording</h3>
           <p className="mt-8 text-xl font-light leading-relaxed">
-          Destination for all your voiceovers, recordings and dubbing needs.
+            Destination for all your voiceovers, recordings and dubbing needs.
           </p>
         </div>
       }
@@ -52,11 +55,9 @@ export default () => (
       id="sound-effects"
       primarySlot={
         <div className="lg:pl-32 xl:pl-48">
-          <h3 className="text-3xl font-semibold leading-tight">
-          Sound Effects
-          </h3>
+          <h3 className="text-3xl font-semibold leading-tight">Sound Effects</h3>
           <p className="mt-8 text-xl font-light leading-relaxed">
-          Record & recreate the sound effects present in the picture without any compromise.
+            Record & recreate the sound effects present in the picture without any compromise.
           </p>
         </div>
       }
@@ -66,26 +67,22 @@ export default () => (
       id="video-editing"
       primarySlot={
         <div className="lg:pr-32 xl:pr-48">
-          <h3 className="text-3xl font-semibold leading-tight">
-          Video Editing
-          </h3>
+          <h3 className="text-3xl font-semibold leading-tight">Video Editing</h3>
           <p className="mt-8 text-xl font-light leading-relaxed">
-          Edit with powerful Apple editing workstation (FCPX) for video post-production 
+            Edit with powerful Apple editing workstation (FCPX) for video post-production
           </p>
         </div>
       }
       secondarySlot={<SvgCharts />}
-    /> 
+    />
     <SplitSection
       reverseOrder
       id="color-grading"
       primarySlot={
         <div className="lg:pl-32 xl:pl-48">
-          <h3 className="text-3xl font-semibold leading-tight">
-          Color Grading
-          </h3>
+          <h3 className="text-3xl font-semibold leading-tight">Color Grading</h3>
           <p className="mt-8 text-xl font-light leading-relaxed">
-          Color Grade your video with very powerful Apple workstation.
+            Color Grade your video with very powerful Apple workstation.
           </p>
         </div>
       }
@@ -95,11 +92,10 @@ export default () => (
       id="green-matte-studio"
       primarySlot={
         <div className="lg:pl-32 xl:pl-48">
-          <h3 className="text-3xl font-semibold leading-tight">
-          Green Matte Studio
-          </h3>
+          <h3 className="text-3xl font-semibold leading-tight">Green Matte Studio</h3>
           <p className="mt-8 text-xl font-light leading-relaxed">
-          Cyclorama Infinity curve green matte studio for CG works equipped with CRI 90+ cinema standard LED light & all camera equipment.
+            Cyclorama Infinity curve green matte studio for CG works equipped with CRI 90+ cinema
+            standard LED light & all camera equipment.
           </p>
         </div>
       }
@@ -110,11 +106,9 @@ export default () => (
       id="preview-theatre"
       primarySlot={
         <div className="lg:pl-32 xl:pl-48">
-          <h3 className="text-3xl font-semibold leading-tight">
-          Preview Theatre
-          </h3>
+          <h3 className="text-3xl font-semibold leading-tight">Preview Theatre</h3>
           <p className="mt-8 text-xl font-light leading-relaxed">
-          A theatre to screen films, teach and discuss.
+            A theatre to screen films, teach and discuss.
           </p>
         </div>
       }
@@ -124,15 +118,16 @@ export default () => (
       <div className="container mx-auto text-center">
         <LabelText className="text-gray-600">About Us</LabelText>
         <p className="text-xl lg:text-2xl mt-6 font-light">
-        I am Shamir (M.Tech Multimedia) proprietor of Update Studios. 
-        I started my career as a video editor, later became sound engineer (Foley sound & mixing) & started executing colour grading works. 
-        I am working with many famous YouTube channels like Eruma Saani, Nakkalites, Thiruvilaiyadal, Banana talkies, etc. 
-        I have worked for the feature films Amadai padai 2 with director Manivannan sir & also with director Ram in Peranbu. 
-        I work dedicatedly with passion to offer quality services to the clients.
-          </p>
+          I am Shamir (M.Tech Multimedia) proprietor of Update Studios. I started my career as a
+          video editor, later became sound engineer (Foley sound & mixing) & started executing
+          colour grading works. I am working with many famous YouTube channels like Eruma Saani,
+          Nakkalites, Thiruvilaiyadal, Banana talkies, etc. I have worked for the feature films
+          Amadai padai 2 with director Manivannan sir & also with director Ram in Peranbu. I work
+          dedicatedly with passion to offer quality services to the clients.
+        </p>
       </div>
     </section>
-    <section id="testimonials" className="py-20 lg:py-40">
+    <section id="testimonials" className="py-20">
       <div className="container mx-auto">
         <LabelText className="mb-8 text-gray-600 text-center">Update Studio In Press</LabelText>
         <div className="flex flex-col md:flex-row md:-mx-3">
@@ -144,7 +139,7 @@ export default () => (
         </div>
       </div>
     </section>
-    <section className="container mx-auto my-20 py-24 bg-gray-200 rounded-lg text-center">
+    <section className="container mx-auto my-20 py-24 rounded-lg text-center locate-us-section">
       <h3 className="text-5xl font-semibold">Locate Us</h3>
       <p className="mt-8 text-xl font-light">
         Quis lectus nulla at volutpat diam ut. Enim lobortis scelerisque fermentum dui faucibus in.

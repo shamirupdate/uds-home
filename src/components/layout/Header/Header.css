@@ -1,0 +1,48 @@
+.header-container {
+  /* background-color: rgba(0, 0, 0, 0.8); */
+  background-color: rgba(255, 255, 255, 0.72);
+  backdrop-filter: saturate(180%) blur(20px);
+  z-index: 9999;
+}
+
+.link {
+  font-size: 14px;
+  font-family: 'SF Pro Text', 'Myriad Set Pro', 'SF Pro Icons', 'Helvetica Neue', 'Helvetica',
+    'Arial', sans-serif;
+  transition: opacity 0.3s cubic-bezier(0.25, 0.1, 0.25, 1);
+  -webkit-tap-highlight-color: transparent;
+  color: rgba(0, 0, 0, 0.8);
+  /* color: whitesmoke; */
+  z-index: 1;
+  opacity: 0.8;
+}
+
+.link:hover,
+.link:active {
+  color: rgba(0, 0, 0, 0.8);
+  opacity: 1 !important;
+}
+
+.logo-full {
+  width: 2.5rem;
+}
+
+.logo-description {
+  margin-top: 3px;
+}
+
+.logo-title {
+  /* color: #855c35; */
+  color: #916436;
+  font-family: Copperplate, 'Copperplate Gothic Light', fantasy;
+  font-size: 22px;
+  line-height: 1.25em;
+}
+.logo-subtitle {
+  font-size: 12px;
+  /* font-family: Georgia, 'Times New Roman', Times, serif; */
+  /* font-style: italic; */
+  color: rgba(0, 0, 0, 0.6);
+  /* color: whitesmoke; */
+  margin-left: 2px;
+}

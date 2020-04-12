@@ -1,0 +1,29 @@
+.footer-container {
+  background-color: #f5f5f7;
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+.logo-icon {
+  width: 4rem;
+}
+
+.logo-description {
+  margin-top: 3px;
+}
+
+.f-logo-title {
+  /* color: #855c35; */
+  color: #916436;
+  font-family: Copperplate, 'Copperplate Gothic Light', fantasy;
+  font-size: 26px;
+  line-height: 1.25em;
+}
+.f-logo-subtitle {
+  font-size: 14px;
+  /* font-family: Georgia, 'Times New Roman', Times, serif; */
+  /* font-style: italic; */
+  color: rgba(0, 0, 0, 0.6);
+  /* color: whitesmoke; */
+  margin-left: 2px;
+}

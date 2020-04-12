@@ -1,7 +1,10 @@
-.landing-section{
-    margin-bottom: 40px;
+.landing-section {
+  margin-bottom: 40px;
 }
 .feature-header {
-    display: block;
-    padding: 60px 10px 20px;
+  display: block;
+  padding: 60px 10px 20px;
+}
+.locate-us-section {
+  background-color: #f5f5f7;
 }
