@@ -19,24 +19,35 @@ function Header(){
 
   return (
     <header className="sm:sticky top-0 bg-white shadow header-container">
-      <div className="container flex flex-col sm:flex-row justify-between items-center mx-auto py-2 px-8">
-        <div className="flex items-center text-2xl">
-          <div className="logo-full mr-3">
-            <LogoIcon />
+      <div className="container flex flex-col sm:flex-row justify-between lg:items-center mx-auto py-2 px-6 md:px-8">
+        <div className="header-logo">
+          <div className="flex items-center text-2xl">
+            <div className="logo-full mr-3">
+              <LogoIcon />
+            </div>
+            <div className="logo-description">
+              <div className="logo-title">Update Studios</div>
+            </div>
           </div>
-          <div className="logo-description">
-            <div className="logo-title">Update Studios</div>
-          </div>
+
+          <button
+            className="flex lg:hidden items-center rounded burger-menu"
+            onClick={handleClick}
+            style={{ outline: "none" }}     // override non-compliant styles
+          >
+            {!menuActive && <BsList />}
+            {menuActive && <BsX />}
+          </button>
         </div>
         
-        <button
-          className="flex lg:hidden items-center rounded burger-menu"
-          onClick={handleClick}
-          style={{ outline: "none" }}     // override non-compliant styles
-        >
-          {!menuActive && <BsList />}
-          {menuActive && <BsX />}
-        </button>
+            {/* <button
+              className="flex lg:hidden items-center rounded burger-menu"
+              onClick={handleClick}
+              style={{ outline: "none" }}     // override non-compliant styles
+            >
+              {!menuActive && <BsList />}
+              {menuActive && <BsX />}
+            </button> */}
 
         <div className="hidden lg:block flex flex-col sm:flex-row mt-4 sm:mt-0">
           <AnchorLink className="px-4 py-2 link" href="#voice-recording">
@@ -59,7 +70,7 @@ function Header(){
           </AnchorLink>
         </div>
       </div>
-      <div className="hidden lg:hidden flex flex-col sm:flex-row mt-4 ml-8 sm:mt-0 justify-center" id="nav">
+      <div className="hidden lg:hidden flex flex-col sm:flex-row mt-2 ml-8 sm:mt-0 justify-center" id="nav">
           <AnchorLink className="px-4 py-2 link" href="#voice-recording">
             Recording
           </AnchorLink>
