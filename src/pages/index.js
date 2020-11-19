@@ -162,7 +162,7 @@ export default () => (
 
           <a href="https://www.instagram.com/explore/tags/updatestudios_dub/" 
             aria-label="instagram tag link" 
-            class="instaLink py-1 md:py-2" 
+            class="instaLink py-1 md:py-2 text-sm sm:text-base lg:text-lg" 
             target="_blank" >View More From Feed <BsBoxArrowUpRight /></a>
         </div>
       </div>
@@ -235,7 +235,7 @@ export default () => (
           </div>
           <a href="https://www.instagram.com/explore/tags/updatestudios_sfx/" 
             aria-label="instagram tag link" 
-            class="instaLink" 
+            class="instaLink py-1 md:py-2 text-sm sm:text-base lg:text-lg" 
             target="_blank" >View More From Feed <BsBoxArrowUpRight /></a>
         </div>
       </div>
@@ -309,7 +309,7 @@ export default () => (
           </div>
           <a href="https://www.instagram.com/explore/tags/updatestudios_cuts/" 
             aria-label="instagram tag link" 
-            class="instaLink" 
+            class="instaLink py-1 md:py-2 text-sm sm:text-base lg:text-lg" 
             target="_blank" >View More From Feed <BsBoxArrowUpRight /></a>
         </div>
       </div>
@@ -383,7 +383,7 @@ export default () => (
           </div>
           <a href="https://www.instagram.com/explore/tags/updatestudios_color/" 
             aria-label="instagram tag link" 
-            class="instaLink" 
+            class="instaLink py-1 md:py-2 text-sm sm:text-base lg:text-lg" 
             target="_blank" >View More From Feed <BsBoxArrowUpRight /></a>
         </div>
       </div>
@@ -458,7 +458,7 @@ export default () => (
           </div>
           <a href="https://www.instagram.com/explore/tags/updatestudios_green/" 
             aria-label="instagram tag link" 
-            class="instaLink" 
+            class="instaLink py-1 md:py-2 text-sm sm:text-base lg:text-lg" 
             target="_blank" >View More From Feed <BsBoxArrowUpRight /></a>
         </div>
       </div>
@@ -530,7 +530,7 @@ export default () => (
           </div>
           <a href="https://www.instagram.com/explore/tags/updatestudios_theatre/" 
             aria-label="instagram tag link" 
-            class="instaLink" 
+            class="instaLink py-1 md:py-2 text-sm sm:text-base lg:text-lg" 
             target="_blank" >View More From Feed<BsBoxArrowUpRight /></a>
         </div>
       </div>

@@ -16,15 +16,12 @@
   color: #916436;
   font-family: MyCopperplate, serif;
   font-weight: 600;
-  font-size: 24px;
+  font-size: 28px;
   line-height: 1.25em;
 }
 .f-logo-subtitle {
-  font-size: 14px;
-  /* font-family: Georgia, 'Times New Roman', Times, serif; */
-  /* font-style: italic; */
+  font-size: 18px;
   color: rgba(0, 0, 0, 0.6);
-  /* color: whitesmoke; */
   margin-left: 2px;
 }
 
