@@ -25,6 +25,12 @@
   justify-content: space-between;
 }
 
+@media (max-width: 1024px) and (min-width: 640px) {
+  .header-logo{
+    width: 100%;
+  }
+}
+
 .logo-full {
   width: 2.5rem;
 }
