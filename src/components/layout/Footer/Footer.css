@@ -45,7 +45,7 @@
 }
 
 .fbIcon {
-  color: #2962ff;
+  color: #4267B2;
 }
 
 .twitterIcon {
@@ -60,10 +60,10 @@
   color: #00800D;
 }
 
-.instaIcon, 
+/* .instaIcon, 
 .fbIcon, 
 .twitterIcon, 
 .emailIcon, 
 .mobileIcon {
   opacity: 0.86;
-}
+} */
