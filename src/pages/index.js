@@ -36,7 +36,7 @@ import './index.css';
 const responsive = {
   desktop: {
     breakpoint: { max: 3000, min: 1024 },
-    items: 4,
+    items: 3,
     paritialVisibilityGutter: 60
   },
   tablet: {
@@ -75,7 +75,7 @@ export default () => (
           <h1 className="home-heading text-left text-lg sm:text-xl lg:text-2xl xl:text-3xl leading-none">
             The Multimedia Hub
           </h1>
-          <p className="home-description pb-2 md:pb-4 text-sm sm:text-base lg:text-lg mt-2 sm:mt-3 lg:mt-4">
+          <p className="home-description text-sm sm:text-base lg:text-lg mt-2 sm:mt-3 lg:mt-4">
             Update Studios is an independent pre-production, production and post-production studio
             that specializes in video editing, color grading, dubbing, foley recording, chroma key
             green room studio with standard lights and equipments & preview theatre for screening
@@ -95,7 +95,8 @@ export default () => (
           <h1 className="section-subheading pt-2 md:pt-4 text-left text-xl sm:text-2xl lg:text-3xl xl:text-4xl leading-none">
             Destination for all your voiceovers, recordings and dubbing needs.
           </h1>
-          <p className="section-description pb-2 md:pb-4 text-sm sm:text-base lg:text-lg mt-2 sm:mt-3 lg:mt-4">
+          <img src={vr} className="pt-2 md:pt-4"/>
+          <p className="section-description text-sm sm:text-base lg:text-lg mt-2 sm:mt-3 lg:mt-4">
             Update Studios covers every aspect of vocal and instruments recording in both studio
             and field for TV production, films, commercials & voice over with most advanced audio interface,
             sound card, microphones & monitoring systems. We offer high-quality professional services in
@@ -103,7 +104,6 @@ export default () => (
             worked with hundreds of satisfied clients for their short films, documentaries, feature films,
             advertisements, podcasts and audiobooks.
           </p>
-          <img src={vr} />
         </div>
       </div>
     </section>
@@ -117,12 +117,12 @@ export default () => (
           <h1 className="section-subheading pt-2 md:pt-4  text-left text-xl sm:text-2xl lg:text-3xl xl:text-4xl leading-none">
             Record & recreate the sound effects present in the picture without any compromise.
           </h1>
-          <p className="section-description pb-2 md:pb-4 text-xs sm:text-sm lg:text-base mt-2 sm:mt-3 lg:mt-4">
+          <img src={se} className="pt-2 md:pt-4"/>
+          <p className="section-description text-sm sm:text-base lg:text-lg mt-2 sm:mt-3 lg:mt-4">
             Update Studios is equipped with various international and indian sound libraries, self
             recorded sounds, Foley pit to record & recreate the sound effects present in the picture. We
             work to deliver top-notch sound tracks for your movies without any compromise in quality.
           </p>
-          <img src={se} />
         </div>
       </div>
     </section>
@@ -136,13 +136,13 @@ export default () => (
           <h1 className="section-subheading pt-2 md:pt-4  text-left text-xl sm:text-2xl lg:text-3xl xl:text-4xl leading-none">
             Edit with powerful Apple editing workstation (FCPX) for video post-production.
           </h1>
-          <p className="section-description pb-2 md:pb-4 text-xs sm:text-sm lg:text-base mt-2 sm:mt-3 lg:mt-4">
+          <img src={ve} className="pt-2 md:pt-4"/>
+          <p className="section-description text-sm sm:text-base lg:text-lg mt-2 sm:mt-3 lg:mt-4">
             Update Studios has very powerful Apple editing workstation (FCPX) for video post
             production of films, TVC and documentaries. We work to enhance the perception of the viewer
             by following every aspect of editing and offer a comprehensive range of quality video editing
             services with one year of storage backup.
           </p>
-          <img src={ve} />
         </div>
       </div>
     </section>
@@ -156,13 +156,13 @@ export default () => (
           <h1 className="section-subheading pt-2 md:pt-4 text-left text-xl sm:text-2xl lg:text-3xl xl:text-4xl leading-none">
             Color Grade your video with very powerful Apple workstation.
           </h1>
-          <p className="section-description pb-2 md:pb-4 text-xs sm:text-sm lg:text-base mt-2 sm:mt-3 lg:mt-4">
+          <img src={cg} className="pt-2 md:pt-4"/>
+          <p className="section-description text-sm sm:text-base lg:text-lg mt-2 sm:mt-3 lg:mt-4">
             Update Studios has a very powerful Apple workstation to do high-end DI (Digital
             Intermediate) /Color Grading which is the final stage in Video Post Production to give the
             best real cinematic color feel for films, TVC, etc. We work to bring out aesthetically proper
             look to the videos using the advanced software.
           </p>
-          <img src={cg} />
         </div>
       </div>
     </section>
@@ -176,14 +176,14 @@ export default () => (
           <h1 className="section-subheading pt-2 md:pt-4 text-left text-xl sm:text-2xl lg:text-3xl xl:text-4xl leading-none">
             Cyclorama Infinity curve green matte studio for CG works equipped with CRI 90+ cinema standard LED light & all camera equipment.
           </h1>
-          <p className="section-description pb-2 md:pb-4 text-xs sm:text-sm lg:text-base mt-2 sm:mt-3 lg:mt-4">
+          <img src={gm} className="pt-2 md:pt-4"/>
+          <p className="section-description text-sm sm:text-base lg:text-lg mt-2 sm:mt-3 lg:mt-4">
             Update Studios is introducing a new fully equipped air-conditioned Cyclorama Infinity
             curve green matte studio with CRI 90+ cinema standard LED light & all camera equipment
             (heavy tripod, slider jimmy grip trolley that is suitable for CG work in songs, short films, Ad film &
             corporate videos. The size of the room is 20’×16’×9’ and can be completely customized to
             white, black or any other color according to the customer's need.
           </p>
-          <img src={gm} />
         </div>
       </div>
     </section>
@@ -197,12 +197,12 @@ export default () => (
           <h1 className="section-subheading pt-2 md:pt-4 text-left text-xl sm:text-2xl lg:text-3xl xl:text-4xl leading-none">
             A theatre to screen films, teach and discuss.
           </h1>
-          <p className="section-description pb-2 md:pb-4 text-xs sm:text-sm lg:text-base mt-2 sm:mt-3 lg:mt-4">
+          <img src={pt} className="pt-2 md:pt-4"/>
+          <p className="section-description text-sm sm:text-base lg:text-lg mt-2 sm:mt-3 lg:mt-4">
             Update Studios is introducing its new air-conditioned 30-seat sound treated preview
             theatre with REC 709 projector and Studio Monitor for film screening. It also has whiteboard
             facilities for teaching and discussion purposes.
           </p>
-          <img src={pt} />
         </div>
       </div>
     </section>

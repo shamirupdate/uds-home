@@ -13,10 +13,10 @@
 }
 
 .f-logo-title {
-  /* color: #855c35; */
   color: #916436;
-  font-family: Copperplate, 'Copperplate Gothic Light', fantasy;
-  font-size: 26px;
+  font-family: MyCopperplate, serif;
+  font-weight: 600;
+  font-size: 24px;
   line-height: 1.25em;
 }
 .f-logo-subtitle {

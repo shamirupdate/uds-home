@@ -6,8 +6,7 @@
 
 .link {
   font-size: 14px;
-  font-family: 'SF Pro Text', 'Myriad Set Pro', 'SF Pro Icons', 'Helvetica Neue', 'Helvetica',
-    'Arial', sans-serif;
+  font-family: 'SF Pro Text', 'Myriad Set Pro', 'SF Pro Icons', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
   transition: opacity 0.3s cubic-bezier(0.25, 0.1, 0.25, 1);
   -webkit-tap-highlight-color: transparent;
   color: rgba(0, 0, 0, 0.8);
