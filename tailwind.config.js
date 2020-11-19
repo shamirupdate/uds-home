@@ -10,6 +10,11 @@ module.exports = {
       }
     }
   },
-  variants: {},
+  variants: {
+    outline: ['responsive', 'focus', 'hover', 'active'],
+  },
+  corePlugins: {
+    outline: false,
+  },
   plugins: []
 };

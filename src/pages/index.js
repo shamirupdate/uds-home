@@ -5,18 +5,212 @@ import CustomerCard from '../components/CustomerCard';
 import LabelText from '../components/LabelText';
 import Layout from '../components/layout/Layout';
 import SplitSection from '../components/SplitSection';
-import StatsBox from '../components/StatsBox';
+// import StatsBox from '../components/StatsBox';
 import customerData from '../data/customer-data';
 import HeroImage from '../svg/HeroImage';
 import SvgCharts from '../svg/SvgCharts';
 import { Link, graphql } from 'gatsby';
+import Carousel from "react-multi-carousel";
+import { Image } from "semantic-ui-react";
+import h1 from '../images/home-slider/home-1.jpg'
+import h2 from '../images/home-slider/home-2.jpg'
+import h3 from '../images/home-slider/home-3.jpg'
+import h4 from '../images/home-slider/home-4.jpg'
+import h5 from '../images/home-slider/home-5.jpg'
+import h6 from '../images/home-slider/home-6.jpg'
+import h7 from '../images/home-slider/home-7.jpg'
+import h8 from '../images/home-slider/home-8.jpg'
 
+import vr from '../images/sections/voice-recording.jpg'
+import se from '../images/sections/sound-effects.jpg'
+import ve from '../images/sections/video-editing.jpg'
+import cg from '../images/sections/color-grading.jpg'
+import gm from '../images/sections/green-matte.jpg'
+import pt from '../images/sections/preview-theatre.jpg'
+
+const imgs = [h1, h2, h3, h4, h5, h6, h7, h8];
+
+import "react-multi-carousel/lib/styles.css";
 import './index.css';
+
+const responsive = {
+  desktop: {
+    breakpoint: { max: 3000, min: 1024 },
+    items: 3,
+    paritialVisibilityGutter: 60
+  },
+  tablet: {
+    breakpoint: { max: 1024, min: 464 },
+    items: 2,
+    paritialVisibilityGutter: 50
+  },
+  mobile: {
+    breakpoint: { max: 464, min: 0 },
+    items: 1,
+    paritialVisibilityGutter: 30
+  }
+};
 
 export default () => (
   <Layout>
-    <section className="pt-20 md:pt-40 landing-section">
-      <div className="container mx-auto px-8 lg:flex">
+    <section className="">
+      <Carousel
+        itemClass="image-item"
+        responsive={responsive}
+      >
+        {imgs.map(image => {
+          return (
+            <Image
+              draggable={false}
+              style={{ width: "100%", height: "100%" }}
+              src={image}
+            />
+          );
+        })}
+      </Carousel>
+    </section>
+    <section className="pt-4 md:pt-8">
+      <div className="container mx-auto px-4 sm:px-6 md:px-8 lg:px-16 xl:px-32 lg:flex">
+        <div className="text-justify">
+          <h1 className="home-heading text-left text-lg sm:text-xl lg:text-2xl xl:text-3xl leading-none">
+            The Multimedia Hub
+          </h1>
+          <p className="home-description pb-2 md:pb-4 text-xs sm:text-sm lg:text-base mt-2 sm:mt-3 lg:mt-4">
+            Update Studios is an independent pre-production, production and post-production studio
+            that specializes in video editing, color grading, dubbing, foley recording, chroma key
+            green room studio with standard lights and equipments & preview theatre for screening
+            films and discussion purposes. The studio ensures confidentiality of the projects and
+            works for the satisfaction of the clients.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section className="pt-4 md:pt-8">
+      <div className="container mx-auto py-1 md:py-4 px-4 sm:px-6 md:px-8 lg:px-16 xl:px-32 lg:flex section">
+        <div className="text-justify section-content">
+          <h1 className="section-heading text-left text-lg sm:text-xl lg:text-2xl xl:text-3xl leading-none">
+            Voice Recording
+          </h1>
+          <h1 className="section-subheading pt-2 md:pt-4 text-left text-xl sm:text-2xl lg:text-3xl xl:text-4xl leading-none">
+            Destination for all your voiceovers, recordings and dubbing needs.
+          </h1>
+          <p className="section-description pb-2 md:pb-4 text-xs sm:text-sm lg:text-base mt-2 sm:mt-3 lg:mt-4">
+            Update Studios covers every aspect of vocal and instruments recording in both studio
+            and field for TV production, films, commercials & voice over with most advanced audio interface,
+            sound card, microphones & monitoring systems. We offer high-quality professional services in
+            voiceovers and dubbing. With the well-connected network of many voiceover artists, we have
+            worked with hundreds of satisfied clients for their short films, documentaries, feature films,
+            advertisements, podcasts and audiobooks.
+          </p>
+          <img src={vr} />
+        </div>
+      </div>
+    </section>
+
+    <section className="pt-4 md:pt-8">
+      <div className="container mx-auto py-1 md:py-4 px-4 sm:px-6 md:px-8 lg:px-16 xl:px-32 lg:flex section">
+        <div className="text-justify section-content">
+          <h1 className="section-heading text-left text-lg sm:text-xl lg:text-2xl xl:text-3xl leading-none">
+            Sound Effects
+          </h1>
+          <h1 className="section-subheading pt-2 md:pt-4  text-left text-xl sm:text-2xl lg:text-3xl xl:text-4xl leading-none">
+            Record & recreate the sound effects present in the picture without any compromise.
+          </h1>
+          <p className="section-description pb-2 md:pb-4 text-xs sm:text-sm lg:text-base mt-2 sm:mt-3 lg:mt-4">
+            Update Studios is equipped with various international and indian sound libraries, self
+            recorded sounds, Foley pit to record & recreate the sound effects present in the picture. We
+            work to deliver top-notch sound tracks for your movies without any compromise in quality.
+          </p>
+          <img src={se} />
+        </div>
+      </div>
+    </section>
+
+    <section className="pt-4 md:pt-8">
+      <div className="container mx-auto py-1 md:py-4 px-4 sm:px-6 md:px-8 lg:px-16 xl:px-32 lg:flex section">
+        <div className="text-justify section-content">
+          <h1 className="section-heading text-left text-lg sm:text-xl lg:text-2xl xl:text-3xl leading-none">
+            Video Editing
+          </h1>
+          <h1 className="section-subheading pt-2 md:pt-4  text-left text-xl sm:text-2xl lg:text-3xl xl:text-4xl leading-none">
+            Edit with powerful Apple editing workstation (FCPX) for video post-production.
+          </h1>
+          <p className="section-description pb-2 md:pb-4 text-xs sm:text-sm lg:text-base mt-2 sm:mt-3 lg:mt-4">
+            Update Studios has very powerful Apple editing workstation (FCPX) for video post
+            production of films, TVC and documentaries. We work to enhance the perception of the viewer
+            by following every aspect of editing and offer a comprehensive range of quality video editing
+            services with one year of storage backup.
+          </p>
+          <img src={ve} />
+        </div>
+      </div>
+    </section>
+
+    <section className="pt-4 md:pt-8">
+      <div className="container mx-auto py-1 md:py-4 px-4 sm:px-6 md:px-8 lg:px-16 xl:px-32 lg:flex section">
+        <div className="text-justify section-content">
+          <h1 className="section-heading text-left text-lg sm:text-xl lg:text-2xl xl:text-3xl leading-none">
+            Color Grading
+          </h1>
+          <h1 className="section-subheading pt-2 md:pt-4 text-left text-xl sm:text-2xl lg:text-3xl xl:text-4xl leading-none">
+            Color Grade your video with very powerful Apple workstation.
+          </h1>
+          <p className="section-description pb-2 md:pb-4 text-xs sm:text-sm lg:text-base mt-2 sm:mt-3 lg:mt-4">
+            Update Studios has a very powerful Apple workstation to do high-end DI (Digital
+            Intermediate) /Color Grading which is the final stage in Video Post Production to give the
+            best real cinematic color feel for films, TVC, etc. We work to bring out aesthetically proper
+            look to the videos using the advanced software.
+          </p>
+          <img src={cg} />
+        </div>
+      </div>
+    </section>
+
+    <section className="pt-4 md:pt-8">
+      <div className="container mx-auto py-1 md:py-4 px-4 sm:px-6 md:px-8 lg:px-16 xl:px-32 lg:flex section">
+        <div className="text-justify section-content">
+          <h1 className="section-heading text-left text-lg sm:text-xl lg:text-2xl xl:text-3xl leading-none">
+            Green Matte Studio
+          </h1>
+          <h1 className="section-subheading pt-2 md:pt-4 text-left text-xl sm:text-2xl lg:text-3xl xl:text-4xl leading-none">
+            Cyclorama Infinity curve green matte studio for CG works equipped with CRI 90+ cinema standard LED light & all camera equipment.
+          </h1>
+          <p className="section-description pb-2 md:pb-4 text-xs sm:text-sm lg:text-base mt-2 sm:mt-3 lg:mt-4">
+            Update Studios is introducing a new fully equipped air-conditioned Cyclorama Infinity
+            curve green matte studio with CRI 90+ cinema standard LED light & all camera equipment
+            (heavy tripod, slider jimmy grip trolley that is suitable for CG work in songs, short films, Ad film &
+            corporate videos. The size of the room is 20’×16’×9’ and can be completely customized to
+            white, black or any other color according to the customer's need.
+          </p>
+          <img src={gm} />
+        </div>
+      </div>
+    </section>
+
+    <section className="pt-4 md:pt-8">
+      <div className="container mx-auto py-1 md:py-4 px-4 sm:px-6 md:px-8 lg:px-16 xl:px-32 lg:flex section">
+        <div className="text-justify section-content">
+          <h1 className="section-heading text-left text-lg sm:text-xl lg:text-2xl xl:text-3xl leading-none">
+            Preview Theatre
+          </h1>
+          <h1 className="section-subheading pt-2 md:pt-4 text-left text-xl sm:text-2xl lg:text-3xl xl:text-4xl leading-none">
+            A theatre to screen films, teach and discuss.
+          </h1>
+          <p className="section-description pb-2 md:pb-4 text-xs sm:text-sm lg:text-base mt-2 sm:mt-3 lg:mt-4">
+            Update Studios is introducing its new air-conditioned 30-seat sound treated preview
+            theatre with REC 709 projector and Studio Monitor for film screening. It also has whiteboard
+            facilities for teaching and discussion purposes.
+          </p>
+          <img src={pt} />
+        </div>
+      </div>
+    </section>
+
+    
+
+    <section className="pt-8 md:pt-16 landing-section">
+      <div className="container mx-auto px-4 sm:px-6 md:px-8 lg:px-16 xl:px-32 lg:flex">
         <div className="text-center lg:text-left lg:w-1/2">
           <h1 className="text-4xl lg:text-5xl xl:text-6xl font-bold leading-none">
             Update Studios

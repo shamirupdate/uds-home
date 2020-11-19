@@ -1,8 +1,12 @@
 import React from 'react';
-import logo from '../images/uds-full-logo.png'
+import logo from '../images/uds-logo.png'
+import logoText from '../images/uds-logo-with-text.png'
 
-const LogoIcon = () => (
+
+export const LogoIcon = () => (
   <img src={logo}/>
 );
 
-export default LogoIcon;
+export const LogoWithText = () => (
+  <img src={logoText}/>
+);
