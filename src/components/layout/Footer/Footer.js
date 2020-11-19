@@ -1,5 +1,6 @@
 import React from 'react';
 
+import { FaInstagram, FaTwitter, FaFacebookSquare } from 'react-icons/fa';
 import { LogoIcon } from '../../../svg/LogoIcon';
 import './Footer.css';
 
@@ -19,13 +20,13 @@ const Footer = () => (
           <p className="mt-5">Ridiculus mus mauris vitae ultricies leo integer malesuada nunc.</p> */}
         </div>
         <div className="flex-1 px-3">
-          <h2 className="text-lg font-semibold">Important Links</h2>
+          <h2 className="text-lg font-semibold">Contact</h2>
           <ul className="mt-4 leading-loose">
             <li>
-              <a href="https://codebushi.com">Terms &amp; Conditions</a>
+              Mobile: 9940760786
             </li>
             <li>
-              <a href="https://codebushi.com">Privacy Policy</a>
+              <a href="mailto:shamir@updatestudios.com" rel="noopener" class="icons" aria-label="Mail">shamir@updatestudios.com</a>
             </li>
           </ul>
         </div>
@@ -33,13 +34,13 @@ const Footer = () => (
           <h2 className="text-lg font-semibold">Social Media</h2>
           <ul className="mt-4 leading-loose">
             <li>
-              <a href="https://dev.to/changoman">Dev.to</a>
+              <a className="social-link" href="https://www.instagram.com/updatestudios/"><FaInstagram /> #updatestudios</a>
             </li>
             <li>
-              <a href="https://twitter.com/HuntaroSan">Twitter</a>
+              <a className="social-link" href="https://www.facebook.com/updatestudios/"><FaFacebookSquare /> updatestudios</a>
             </li>
             <li>
-              <a href="https://github.com/codebushi/gatsby-starter-lander">GitHub</a>
+              <a className="social-link" href="https://twitter.com/Shamir_uds"><FaTwitter /> @Shamir_uds</a>
             </li>
           </ul>
         </div>

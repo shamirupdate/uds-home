@@ -1,17 +1,15 @@
 import React from 'react';
-import Button from '../components/Button';
-// import Card from '../components/Card';
-import CustomerCard from '../components/CustomerCard';
-import LabelText from '../components/LabelText';
+
 import Layout from '../components/layout/Layout';
-import SplitSection from '../components/SplitSection';
-// import StatsBox from '../components/StatsBox';
+import CustomerCard from '../components/CustomerCard';
 import customerData from '../data/customer-data';
-import HeroImage from '../svg/HeroImage';
-import SvgCharts from '../svg/SvgCharts';
 import { Link, graphql } from 'gatsby';
 import Carousel from "react-multi-carousel";
 import { Image } from "semantic-ui-react";
+import InstagramEmbed from 'react-instagram-embed';
+import Iframe from 'react-iframe';
+import { BsBoxArrowUpRight } from 'react-icons/bs';
+
 import h1 from '../images/home-slider/home-1.jpg'
 import h2 from '../images/home-slider/home-2.jpg'
 import h3 from '../images/home-slider/home-3.jpg'
@@ -27,6 +25,12 @@ import ve from '../images/sections/video-editing.jpg'
 import cg from '../images/sections/color-grading.jpg'
 import gm from '../images/sections/green-matte.jpg'
 import pt from '../images/sections/preview-theatre.jpg'
+
+import a1 from '../images/about/about-1.jpg'
+import a2 from '../images/about/about-2.jpg'
+import a3 from '../images/about/about-3.jpg'
+import a4 from '../images/about/about-4.jpg'
+import a5 from '../images/about/about-5.jpg'
 
 const imgs = [h1, h2, h3, h4, h5, h6, h7, h8];
 
@@ -106,6 +110,60 @@ export default () => (
             worked with hundreds of satisfied clients for their short films, documentaries, feature films,
             advertisements, podcasts and audiobooks.
           </p>
+
+          <h3 className="insta-heading pt-2 md:pt-4 text-center text-sm sm:text-base lg:text-lg xl:text-xl leading-none tracking-tight">
+            #updatestudios_dub
+          </h3>
+
+          <div className="instaSection pt-6 pb-2">
+            <InstagramEmbed
+              url='https://www.instagram.com/p/BpMRN1bDgRJ/'
+              clientAccessToken='1812019072296010|dd9b6011d0cadb5013c3ebced773f1ca'
+              maxWidth={320}
+              hideCaption={true}
+              containerTagName='div'
+              protocol=''
+              injectScript
+              onLoading={() => {}}
+              onSuccess={() => {}}
+              onAfterRender={() => {}}
+              onFailure={() => {}}
+              className="instaPost"
+            />
+            <InstagramEmbed
+              url='https://www.instagram.com/p/BfuentcBB5E/'
+              clientAccessToken='1812019072296010|dd9b6011d0cadb5013c3ebced773f1ca'
+              maxWidth={320}
+              hideCaption={true}
+              containerTagName='div'
+              protocol=''
+              injectScript
+              onLoading={() => {}}
+              onSuccess={() => {}}
+              onAfterRender={() => {}}
+              onFailure={() => {}}
+              className="instaPost"
+            />
+            <InstagramEmbed
+              url='https://www.instagram.com/p/B31dSJSBtPY/'
+              clientAccessToken='1812019072296010|dd9b6011d0cadb5013c3ebced773f1ca'
+              maxWidth={320}
+              hideCaption={true}
+              containerTagName='div'
+              protocol=''
+              injectScript
+              onLoading={() => {}}
+              onSuccess={() => {}}
+              onAfterRender={() => {}}
+              onFailure={() => {}}
+              className="instaPost"
+            />
+          </div>
+
+          <a href="https://www.instagram.com/explore/tags/updatestudios_dub/" 
+            aria-label="instagram tag link" 
+            class="instaLink py-1 md:py-2" 
+            target="_blank" >View More From Feed <BsBoxArrowUpRight /></a>
         </div>
       </div>
     </section>
@@ -126,6 +184,59 @@ export default () => (
             recorded sounds, Foley pit to record & recreate the sound effects present in the picture. We
             work to deliver top-notch sound tracks for your movies without any compromise in quality.
           </p>
+
+          <h3 className="insta-heading pt-2 md:pt-4 text-center text-sm sm:text-base lg:text-lg xl:text-xl leading-none tracking-tight">
+            #updatestudios_sfx
+          </h3>
+
+          <div className="instaSection pt-6 pb-2">
+            <InstagramEmbed
+              url='https://www.instagram.com/p/B7OAahbh8IM/'
+              clientAccessToken='1812019072296010|dd9b6011d0cadb5013c3ebced773f1ca'
+              maxWidth={320}
+              hideCaption={true}
+              containerTagName='div'
+              protocol=''
+              injectScript
+              onLoading={() => {}}
+              onSuccess={() => {}}
+              onAfterRender={() => {}}
+              onFailure={() => {}}
+              className="instaPost"
+            />
+            <InstagramEmbed
+              url='https://www.instagram.com/p/Bi81ZAMBBMA/'
+              clientAccessToken='1812019072296010|dd9b6011d0cadb5013c3ebced773f1ca'
+              maxWidth={320}
+              hideCaption={true}
+              containerTagName='div'
+              protocol=''
+              injectScript
+              onLoading={() => {}}
+              onSuccess={() => {}}
+              onAfterRender={() => {}}
+              onFailure={() => {}}
+              className="instaPost"
+            />
+            <InstagramEmbed
+              url='https://www.instagram.com/p/BxASfahg5Ix/'
+              clientAccessToken='1812019072296010|dd9b6011d0cadb5013c3ebced773f1ca'
+              maxWidth={320}
+              hideCaption={true}
+              containerTagName='div'
+              protocol=''
+              injectScript
+              onLoading={() => {}}
+              onSuccess={() => {}}
+              onAfterRender={() => {}}
+              onFailure={() => {}}
+              className="instaPost"
+            />
+          </div>
+          <a href="https://www.instagram.com/explore/tags/updatestudios_sfx/" 
+            aria-label="instagram tag link" 
+            class="instaLink" 
+            target="_blank" >View More From Feed <BsBoxArrowUpRight /></a>
         </div>
       </div>
     </section>
@@ -147,6 +258,59 @@ export default () => (
             by following every aspect of editing and offer a comprehensive range of quality video editing
             services with one year of storage backup.
           </p>
+
+          <h3 className="insta-heading pt-2 md:pt-4 text-center text-sm sm:text-base lg:text-lg xl:text-xl leading-none tracking-tight">
+            #updatestudios_cuts
+          </h3>
+
+          <div className="instaSection pt-6 pb-2">
+            <InstagramEmbed
+              url='https://www.instagram.com/p/By13sNRhZ8L/'
+              clientAccessToken='1812019072296010|dd9b6011d0cadb5013c3ebced773f1ca'
+              maxWidth={320}
+              hideCaption={true}
+              containerTagName='div'
+              protocol=''
+              injectScript
+              onLoading={() => {}}
+              onSuccess={() => {}}
+              onAfterRender={() => {}}
+              onFailure={() => {}}
+              className="instaPost"
+            />
+            <InstagramEmbed
+              url='https://www.instagram.com/p/ByNoWBbhK2s/'
+              clientAccessToken='1812019072296010|dd9b6011d0cadb5013c3ebced773f1ca'
+              maxWidth={320}
+              hideCaption={true}
+              containerTagName='div'
+              protocol=''
+              injectScript
+              onLoading={() => {}}
+              onSuccess={() => {}}
+              onAfterRender={() => {}}
+              onFailure={() => {}}
+              className="instaPost"
+            />
+            <InstagramEmbed
+              url='https://www.instagram.com/p/BvitxztAUvx/'
+              clientAccessToken='1812019072296010|dd9b6011d0cadb5013c3ebced773f1ca'
+              maxWidth={320}
+              hideCaption={true}
+              containerTagName='div'
+              protocol=''
+              injectScript
+              onLoading={() => {}}
+              onSuccess={() => {}}
+              onAfterRender={() => {}}
+              onFailure={() => {}}
+              className="instaPost"
+            />
+          </div>
+          <a href="https://www.instagram.com/explore/tags/updatestudios_cuts/" 
+            aria-label="instagram tag link" 
+            class="instaLink" 
+            target="_blank" >View More From Feed <BsBoxArrowUpRight /></a>
         </div>
       </div>
     </section>
@@ -168,6 +332,59 @@ export default () => (
             best real cinematic color feel for films, TVC, etc. We work to bring out aesthetically proper
             look to the videos using the advanced software.
           </p>
+
+          <h3 className="insta-heading pt-2 md:pt-4 text-center text-sm sm:text-base lg:text-lg xl:text-xl leading-none tracking-tight">
+            #updatestudios_color
+          </h3>
+
+          <div className="instaSection pt-6 pb-2">
+            <InstagramEmbed
+              url='https://www.instagram.com/p/BtQDOx8g_a-/'
+              clientAccessToken='1812019072296010|dd9b6011d0cadb5013c3ebced773f1ca'
+              maxWidth={320}
+              hideCaption={true}
+              containerTagName='div'
+              protocol=''
+              injectScript
+              onLoading={() => {}}
+              onSuccess={() => {}}
+              onAfterRender={() => {}}
+              onFailure={() => {}}
+              className="instaPost"
+            />
+            <InstagramEmbed
+              url='https://www.instagram.com/p/BzA0Mfshr55/'
+              clientAccessToken='1812019072296010|dd9b6011d0cadb5013c3ebced773f1ca'
+              maxWidth={320}
+              hideCaption={true}
+              containerTagName='div'
+              protocol=''
+              injectScript
+              onLoading={() => {}}
+              onSuccess={() => {}}
+              onAfterRender={() => {}}
+              onFailure={() => {}}
+              className="instaPost"
+            />
+            <InstagramEmbed
+              url='https://www.instagram.com/p/BsSRLbGjUfe/'
+              clientAccessToken='1812019072296010|dd9b6011d0cadb5013c3ebced773f1ca'
+              maxWidth={320}
+              hideCaption={true}
+              containerTagName='div'
+              protocol=''
+              injectScript
+              onLoading={() => {}}
+              onSuccess={() => {}}
+              onAfterRender={() => {}}
+              onFailure={() => {}}
+              className="instaPost"
+            />
+          </div>
+          <a href="https://www.instagram.com/explore/tags/updatestudios_color/" 
+            aria-label="instagram tag link" 
+            class="instaLink" 
+            target="_blank" >View More From Feed <BsBoxArrowUpRight /></a>
         </div>
       </div>
     </section>
@@ -190,6 +407,59 @@ export default () => (
             corporate videos. The size of the room is 20’×16’×9’ and can be completely customized to
             white, black or any other color according to the customer's need.
           </p>
+
+          <h3 className="insta-heading pt-2 md:pt-4 text-center text-sm sm:text-base lg:text-lg xl:text-xl leading-none tracking-tight">
+            #updatestudios_green
+          </h3>
+
+          <div className="instaSection pt-6 pb-2">
+            <InstagramEmbed
+              url='https://www.instagram.com/p/B7CuI5bBFFW/'
+              clientAccessToken='1812019072296010|dd9b6011d0cadb5013c3ebced773f1ca'
+              maxWidth={320}
+              hideCaption={true}
+              containerTagName='div'
+              protocol=''
+              injectScript
+              onLoading={() => {}}
+              onSuccess={() => {}}
+              onAfterRender={() => {}}
+              onFailure={() => {}}
+              className="instaPost"
+            />
+            <InstagramEmbed
+              url='https://www.instagram.com/p/BoZDg4IBv0N/'
+              clientAccessToken='1812019072296010|dd9b6011d0cadb5013c3ebced773f1ca'
+              maxWidth={320}
+              hideCaption={true}
+              containerTagName='div'
+              protocol=''
+              injectScript
+              onLoading={() => {}}
+              onSuccess={() => {}}
+              onAfterRender={() => {}}
+              onFailure={() => {}}
+              className="instaPost"
+            />
+            <InstagramEmbed
+              url='https://www.instagram.com/p/BrXat8ujT2a/'
+              clientAccessToken='1812019072296010|dd9b6011d0cadb5013c3ebced773f1ca'
+              maxWidth={320}
+              hideCaption={true}
+              containerTagName='div'
+              protocol=''
+              injectScript
+              onLoading={() => {}}
+              onSuccess={() => {}}
+              onAfterRender={() => {}}
+              onFailure={() => {}}
+              className="instaPost"
+            />
+          </div>
+          <a href="https://www.instagram.com/explore/tags/updatestudios_green/" 
+            aria-label="instagram tag link" 
+            class="instaLink" 
+            target="_blank" >View More From Feed <BsBoxArrowUpRight /></a>
         </div>
       </div>
     </section>
@@ -210,125 +480,172 @@ export default () => (
             theatre with REC 709 projector and Studio Monitor for film screening. It also has whiteboard
             facilities for teaching and discussion purposes.
           </p>
+          <h3 className="insta-heading pt-2 md:pt-4 text-center text-sm sm:text-base lg:text-lg xl:text-xl leading-none tracking-tight">
+            #updatestudios_theatre
+          </h3>
+          
+          <div className="instaSection pt-6 pb-2">
+            <InstagramEmbed
+              url='https://www.instagram.com/p/BqcWxbYDNgh/'
+              clientAccessToken='1812019072296010|dd9b6011d0cadb5013c3ebced773f1ca'
+              maxWidth={320}
+              hideCaption={true}
+              containerTagName='div'
+              protocol=''
+              injectScript
+              onLoading={() => {}}
+              onSuccess={() => {}}
+              onAfterRender={() => {}}
+              onFailure={() => {}}
+              className="instaPost"
+            />
+            <InstagramEmbed
+              url='https://www.instagram.com/p/BrzmdRWASYJ/'
+              clientAccessToken='1812019072296010|dd9b6011d0cadb5013c3ebced773f1ca'
+              maxWidth={320}
+              hideCaption={true}
+              containerTagName='div'
+              protocol=''
+              injectScript
+              onLoading={() => {}}
+              onSuccess={() => {}}
+              onAfterRender={() => {}}
+              onFailure={() => {}}
+              className="instaPost"
+            />
+            <InstagramEmbed
+              url='https://www.instagram.com/p/Bq88EDGg7Y0/'
+              clientAccessToken='1812019072296010|dd9b6011d0cadb5013c3ebced773f1ca'
+              maxWidth={320}
+              hideCaption={true}
+              containerTagName='div'
+              protocol=''
+              injectScript
+              onLoading={() => {}}
+              onSuccess={() => {}}
+              onAfterRender={() => {}}
+              onFailure={() => {}}
+              className="instaPost"
+            />
+          </div>
+          <a href="https://www.instagram.com/explore/tags/updatestudios_theatre/" 
+            aria-label="instagram tag link" 
+            class="instaLink" 
+            target="_blank" >View More From Feed<BsBoxArrowUpRight /></a>
         </div>
       </div>
     </section>
 
-    
 
-    <section className="pt-8 md:pt-16 landing-section">
-      <div className="container mx-auto px-4 sm:px-6 md:px-8 lg:px-16 xl:px-32 lg:flex">
-        <div className="text-center lg:text-left lg:w-1/2">
-          <h1 className="text-4xl lg:text-5xl xl:text-6xl font-bold leading-none">
-            Update Studios
+    <section className="pt-4 md:pt-8">
+      <div className="container mx-auto py-1 md:py-4 px-4 sm:px-6 md:px-8 lg:px-16 xl:px-32 lg:flex section">
+        <div className="text-justify section-content">
+          <h1 className="section-heading text-left text-lg sm:text-xl lg:text-2xl xl:text-3xl leading-none">
+            About
           </h1>
-          <p className="text-xl lg:text-2xl mt-6 font-light">
-            Update Studios is an independent pre-production, production and post-production studio
-            that specializes in video editing, color grading, dubbing, Foley recording, chroma key
-            green room studio with standard lights and equipments & preview theatre for screening
-            films and discussion purposes. The studio ensures confidentiality of the projects and
-            works for the satisfaction of the clients.
+          <h2 className="about-name pt-2 md:pt-4 text-left text-xl sm:text-2xl lg:text-3xl xl:text-4xl leading-none tracking-tight">
+            A. Shamir Mohamed
+          </h2>
+          <h3 className="about-degree pt-2 md:pt-4 text-left text-sm sm:text-base lg:text-lg xl:text-xl leading-none tracking-tight">
+            M. Tech Multimedia, Proprietor
+          </h3>
+          <img src={a1} className="pt-2 md:pt-4"/>
+          <p className="section-description px-8 lg:px-16 text-sm sm:text-base lg:text-lg mt-2 sm:mt-3 lg:mt-4
+              tracking-tighter lg:tracking-tight leading-tight lg:leading-snug">
+            "Just Dream" - A powerful spell inside me has brought me the growth I cherish as an
+            entrepreneur. From childhood, I was good at the creative works and this made my quest for
+            things I really wanted in my life. Later, I found myself active and enthusiastic when I discovered
+            that my brain was put to think out of the box. And that's how I chose my profession and now, I
+            own " Update studios".
           </p>
-          <Link to="/orbit/">orbit</Link>
-        </div>
-        <div className="lg:w-1/2">
-          <HeroImage />
+
+          <p className="section-description px-8 lg:px-16 text-sm sm:text-base lg:text-lg mt-2 sm:mt-3 lg:mt-4
+              tracking-tighter lg:tracking-tight leading-tight lg:leading-snug">
+            Initially, I started my career as a video editor, later equipped myself to become a sound
+            engineer (Foley sound & mixing) and now I execute colour grading works too. Apart from this, I
+            have partnered with a big network of pre-production and production companies for story board,
+            script writing, direction, cinematography, computer graphics and music to offer a complete
+            process of film making.
+          </p>
+
+          <img src={a2} className="pt-2 md:pt-4"/>
+
+          <p className="section-description px-8 lg:px-16 text-sm sm:text-base lg:text-lg mt-2 sm:mt-3 lg:mt-4
+              tracking-tighter lg:tracking-tight leading-tight lg:leading-snug">
+            My sense of social responsibility was turned on when I worked in the documentary films.
+            I have done camera and full post production for "Mudivin aarambam", which is about the
+            kudankulam power plant. And, I'm proud of being one of the editors in tamil version and for
+            doing complete English version of the documentary "Uyirvali" about Rajiv Gandhi's case which
+            was the reason behind the cancellation of death penalty of seven convicts and this earned me
+            an award from Perarivalan's mother Arpudammal. Then I worked for the documentary "Saving
+            lakes of Kanchipuram". All these works gave me insights into the documentary industry. I have
+            worked for the feature films of director Manivannan sir's "Amadai padai 2" and Ram sir's
+            "Peranbu".
+          </p>
+
+          <img src={a3} className="pt-2 md:pt-4"/>
+
+          <p className="section-description px-8 lg:px-16 text-sm sm:text-base lg:text-lg mt-2 sm:mt-3 lg:mt-4
+              tracking-tighter lg:tracking-tight leading-tight lg:leading-snug">
+            Currently, I work for many famous YouTube channels like Eruma saani, Nakkalites,
+            Thiruvilaiyadal, Banana talkies, etc. and started doing advancement and corporate videos. Apart
+            from this, as a mark of growth of the studio, I work as a dubbing engineer for the feature film
+            "Aelay", directed by Halitha featuring Samuthrakani as a hero. I'm the foley designer and
+            dubbing engineer for the movie "TNT" directed by Aravind maduvan featuring Kadai
+            Kamalakanan as a hero and Rohini mam in lead role.
+          </p>
+
+          <img src={a4} className="pt-2 md:pt-4"/>
+
+          <p className="section-description px-8 lg:px-16 text-sm sm:text-base lg:text-lg mt-2 sm:mt-3 lg:mt-4
+              tracking-tighter lg:tracking-tight leading-tight lg:leading-snug">
+            Being a motivational speaker, I enlighten the school and college students about the
+            scope of multimedia and social work. I also provide them internship facilities and encourage
+            visits to my studio for an experience.
+          </p>
+
+          <img src={a5} className="pt-2 md:pt-4"/>
+
+          <p className="section-description px-8 lg:px-16 text-sm sm:text-base lg:text-lg mt-2 sm:mt-3 lg:mt-4
+              tracking-tighter lg:tracking-tight leading-tight lg:leading-snug">
+            These works of mine have been highly recognized and helped me receive many awards.
+            A short film, for which I have done sound have been selected in international film festivals. I
+            have even received Best entrepreneur awards and several other awards for my untiring and
+            ardent work. My works show my passion and dedication in offering quality services to fulfill the
+            customer's needs. I’m always open to new opportunities and have plenty of room for more
+            award-winning works.
+          </p>
+
+          <p className="section-description px-8 lg:px-16 text-sm sm:text-base lg:text-lg mt-2 sm:mt-3 lg:mt-4
+              tracking-tighter lg:tracking-tight leading-tight lg:leading-snug">
+            I'm indebted and thankful to all my customers, friends and family's feedback which
+            helped me improve and achieve a lot in my career.
+          </p>
+
         </div>
       </div>
     </section>
-    <div className="feature-header">
-      <h2 className="text-center text-3xl lg:text-5xl font-semibold">Our Services</h2>
-    </div>
-    <SplitSection
-      id="voice-recording"
-      primarySlot={
-        <div className="lg:pr-32 xl:pr-48">
-          <h3 className="text-3xl font-semibold leading-tight">Voice Recording</h3>
-          <p className="mt-8 text-xl font-light leading-relaxed">
-            Destination for all your voiceovers, recordings and dubbing needs.
-          </p>
-        </div>
-      }
-      secondarySlot={<SvgCharts />}
-    />
-    <SplitSection
-      reverseOrder
-      id="sound-effects"
-      primarySlot={
-        <div className="lg:pl-32 xl:pl-48">
-          <h3 className="text-3xl font-semibold leading-tight">Sound Effects</h3>
-          <p className="mt-8 text-xl font-light leading-relaxed">
-            Record & recreate the sound effects present in the picture without any compromise.
-          </p>
-        </div>
-      }
-      secondarySlot={<SvgCharts />}
-    />
-    <SplitSection
-      id="video-editing"
-      primarySlot={
-        <div className="lg:pr-32 xl:pr-48">
-          <h3 className="text-3xl font-semibold leading-tight">Video Editing</h3>
-          <p className="mt-8 text-xl font-light leading-relaxed">
-            Edit with powerful Apple editing workstation (FCPX) for video post-production
-          </p>
-        </div>
-      }
-      secondarySlot={<SvgCharts />}
-    />
-    <SplitSection
-      reverseOrder
-      id="color-grading"
-      primarySlot={
-        <div className="lg:pl-32 xl:pl-48">
-          <h3 className="text-3xl font-semibold leading-tight">Color Grading</h3>
-          <p className="mt-8 text-xl font-light leading-relaxed">
-            Color Grade your video with very powerful Apple workstation.
-          </p>
-        </div>
-      }
-      secondarySlot={<SvgCharts />}
-    />
-    <SplitSection
-      id="green-matte-studio"
-      primarySlot={
-        <div className="lg:pl-32 xl:pl-48">
-          <h3 className="text-3xl font-semibold leading-tight">Green Matte Studio</h3>
-          <p className="mt-8 text-xl font-light leading-relaxed">
-            Cyclorama Infinity curve green matte studio for CG works equipped with CRI 90+ cinema
-            standard LED light & all camera equipment.
-          </p>
-        </div>
-      }
-      secondarySlot={<SvgCharts />}
-    />
-    <SplitSection
-      reverseOrder
-      id="preview-theatre"
-      primarySlot={
-        <div className="lg:pl-32 xl:pl-48">
-          <h3 className="text-3xl font-semibold leading-tight">Preview Theatre</h3>
-          <p className="mt-8 text-xl font-light leading-relaxed">
-            A theatre to screen films, teach and discuss.
-          </p>
-        </div>
-      }
-      secondarySlot={<SvgCharts />}
-    />
-    <section id="stats" className="py-20 lg:pt-32">
-      <div className="container mx-auto text-center">
-        <LabelText className="text-gray-600">About Us</LabelText>
-        <p className="text-xl lg:text-2xl mt-6 font-light">
-          I am Shamir (M.Tech Multimedia) proprietor of Update Studios. I started my career as a
-          video editor, later became sound engineer (Foley sound & mixing) & started executing
-          colour grading works. I am working with many famous YouTube channels like Eruma Saani,
-          Nakkalites, Thiruvilaiyadal, Banana talkies, etc. I have worked for the feature films
-          Amadai padai 2 with director Manivannan sir & also with director Ram in Peranbu. I work
-          dedicatedly with passion to offer quality services to the clients.
-        </p>
+    
+    <section className="pt-4 md:pt-8 mb-4 md:mb-8">
+      <div className="container mx-auto py-1 md:py-4 px-4 sm:px-6 md:px-8 lg:px-16 xl:px-32 lg:flex section">
+        <div className="text-justify section-content visit-content">
+          <h1 className="section-heading text-left text-lg sm:text-xl lg:text-2xl xl:text-3xl leading-none">
+            Visit Us
+          </h1>
+        <div className="map-container">
+          <Iframe url="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3916.1804680796963!2d76.92991861523902!3d11.025082792153057!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba859f3649a161d%3A0x3cba30bd475d4e7a!2sUpdate%20Studios!5e0!3m2!1sen!2sus!4v1605781940076!5m2!1sen!2sus"
+            width="600px"
+            height="350px"
+            className="map"
+            display="initial"
+            position="relative"/>
+          </div>
+        </div> 
       </div>
     </section>
-    <section id="testimonials" className="py-20">
+
+ 
+    {/* <section id="testimonials" className="py-20">
       <div className="container mx-auto">
         <LabelText className="mb-8 text-gray-600 text-center">Update Studio In Press</LabelText>
         <div className="flex flex-col md:flex-row md:-mx-3">
@@ -339,8 +656,8 @@ export default () => (
           ))}
         </div>
       </div>
-    </section>
-    <section className="container mx-auto my-20 py-24 rounded-lg text-center locate-us-section">
+    </section> */}
+    {/* <section className="container mx-auto my-20 py-24 rounded-lg text-center locate-us-section">
       <h3 className="text-5xl font-semibold">Locate Us</h3>
       <p className="mt-8 text-xl font-light">
         Quis lectus nulla at volutpat diam ut. Enim lobortis scelerisque fermentum dui faucibus in.
@@ -348,6 +665,6 @@ export default () => (
       <p className="mt-8">
         <Button size="xl">Get Started Now</Button>
       </p>
-    </section>
+    </section> */}
   </Layout>
 );

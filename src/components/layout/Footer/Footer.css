@@ -27,3 +27,10 @@
   /* color: whitesmoke; */
   margin-left: 2px;
 }
+
+.social-link{
+  display: flex;
+  gap: 0.5em;
+  align-items: center;
+
+}
