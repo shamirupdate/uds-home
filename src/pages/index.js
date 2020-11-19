@@ -93,7 +93,7 @@ export default () => (
           <h1 className="section-heading text-left text-lg sm:text-xl lg:text-2xl xl:text-3xl leading-none">
             Voice Recording
           </h1>
-          <h1 className="section-subheading pt-2 md:pt-4 text-left text-xl sm:text-2xl lg:text-3xl xl:text-4xl leading-none">
+          <h1 className="section-subheading pt-2 md:pt-4 text-left text-xl sm:text-2xl lg:text-3xl xl:text-4xl leading-none tracking-tight">
             Destination for all your voiceovers, recordings and dubbing needs.
           </h1>
           <img src={vr} className="pt-2 md:pt-4"/>
@@ -116,7 +116,7 @@ export default () => (
           <h1 className="section-heading text-left text-lg sm:text-xl lg:text-2xl xl:text-3xl leading-none">
             Sound Effects
           </h1>
-          <h1 className="section-subheading pt-2 md:pt-4  text-left text-xl sm:text-2xl lg:text-3xl xl:text-4xl leading-none">
+          <h1 className="section-subheading pt-2 md:pt-4  text-left text-xl sm:text-2xl lg:text-3xl xl:text-4xl leading-none tracking-tight">
             Record & recreate the sound effects present in the picture without any compromise.
           </h1>
           <img src={se} className="pt-2 md:pt-4"/>
@@ -136,7 +136,7 @@ export default () => (
           <h1 className="section-heading text-left text-lg sm:text-xl lg:text-2xl xl:text-3xl leading-none">
             Video Editing
           </h1>
-          <h1 className="section-subheading pt-2 md:pt-4  text-left text-xl sm:text-2xl lg:text-3xl xl:text-4xl leading-none">
+          <h1 className="section-subheading pt-2 md:pt-4  text-left text-xl sm:text-2xl lg:text-3xl xl:text-4xl leading-none tracking-tight">
             Edit with powerful Apple editing workstation (FCPX) for video post-production.
           </h1>
           <img src={ve} className="pt-2 md:pt-4"/>
@@ -157,7 +157,7 @@ export default () => (
           <h1 className="section-heading text-left text-lg sm:text-xl lg:text-2xl xl:text-3xl leading-none">
             Color Grading
           </h1>
-          <h1 className="section-subheading pt-2 md:pt-4 text-left text-xl sm:text-2xl lg:text-3xl xl:text-4xl leading-none">
+          <h1 className="section-subheading pt-2 md:pt-4 text-left text-xl sm:text-2xl lg:text-3xl xl:text-4xl leading-none tracking-tight">
             Color Grade your video with very powerful Apple workstation.
           </h1>
           <img src={cg} className="pt-2 md:pt-4"/>
@@ -178,7 +178,7 @@ export default () => (
           <h1 className="section-heading text-left text-lg sm:text-xl lg:text-2xl xl:text-3xl leading-none">
             Green Matte Studio
           </h1>
-          <h1 className="section-subheading pt-2 md:pt-4 text-left text-xl sm:text-2xl lg:text-3xl xl:text-4xl leading-none">
+          <h1 className="section-subheading pt-2 md:pt-4 text-left text-xl sm:text-2xl lg:text-3xl xl:text-4xl leading-none tracking-tight">
             Cyclorama Infinity curve green matte studio for CG works equipped with CRI 90+ cinema standard LED light & all camera equipment.
           </h1>
           <img src={gm} className="pt-2 md:pt-4"/>
@@ -200,7 +200,7 @@ export default () => (
           <h1 className="section-heading text-left text-lg sm:text-xl lg:text-2xl xl:text-3xl leading-none">
             Preview Theatre
           </h1>
-          <h1 className="section-subheading pt-2 md:pt-4 text-left text-xl sm:text-2xl lg:text-3xl xl:text-4xl leading-none">
+          <h1 className="section-subheading pt-2 md:pt-4 text-left text-xl sm:text-2xl lg:text-3xl xl:text-4xl leading-none tracking-tight">
             A theatre to screen films, teach and discuss.
           </h1>
           <img src={pt} className="pt-2 md:pt-4"/>

@@ -27,11 +27,11 @@
 .home-heading {
   color: #a3a3a3;
   font-weight: 500;
-  font-family: 'SF Pro Text', 'Myriad Set Pro', 'SF Pro Icons', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
 }
 
 .home-description{
   color: #333333;
+  font-weight: 400;
 }
 
 .section {
@@ -45,15 +45,25 @@
 .section-heading {
   color: #888;
   font-weight: 500;
-  font-family: 'SF Pro Text', 'Myriad Set Pro', 'SF Pro Icons', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
 }
 
 .section-subheading{
   color: #333333;
   font-weight: 400;
-  font-family: 'SF Pro Text', 'Myriad Set Pro', 'SF Pro Icons', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
 }
 
 .section-description{
   color: #666666;
+}
+
+/* fonts */
+.home-description,
+.section-description, 
+.section-subheading{
+  font-family: "SF Pro Display", "SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+
+.home-heading,
+.section-heading{
+  font-family: 'SF Pro Text', 'Myriad Set Pro', 'SF Pro Icons', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
 }
