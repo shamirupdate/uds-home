@@ -75,7 +75,7 @@ export default () => (
           <h1 className="home-heading text-left text-lg sm:text-xl lg:text-2xl xl:text-3xl leading-none">
             The Multimedia Hub
           </h1>
-          <p className="home-description pb-2 md:pb-4 text-xs sm:text-sm lg:text-base mt-2 sm:mt-3 lg:mt-4">
+          <p className="home-description pb-2 md:pb-4 text-sm sm:text-base lg:text-lg mt-2 sm:mt-3 lg:mt-4">
             Update Studios is an independent pre-production, production and post-production studio
             that specializes in video editing, color grading, dubbing, foley recording, chroma key
             green room studio with standard lights and equipments & preview theatre for screening
@@ -95,7 +95,7 @@ export default () => (
           <h1 className="section-subheading pt-2 md:pt-4 text-left text-xl sm:text-2xl lg:text-3xl xl:text-4xl leading-none">
             Destination for all your voiceovers, recordings and dubbing needs.
           </h1>
-          <p className="section-description pb-2 md:pb-4 text-xs sm:text-sm lg:text-base mt-2 sm:mt-3 lg:mt-4">
+          <p className="section-description pb-2 md:pb-4 text-sm sm:text-base lg:text-lg mt-2 sm:mt-3 lg:mt-4">
             Update Studios covers every aspect of vocal and instruments recording in both studio
             and field for TV production, films, commercials & voice over with most advanced audio interface,
             sound card, microphones & monitoring systems. We offer high-quality professional services in
