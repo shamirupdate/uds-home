@@ -47,13 +47,8 @@
 }
 
 .burger-menu {
-  border: #444;
   outline: none;
-  background: #fff;
-  border-radius: 5px;
   cursor: pointer;
-  -webkit-box-shadow: 0 5px 25px -5px rgba(0, 0, 0, 0.2);
-  -moz-box-shadow: 0 5px 25px -5px rgba(0, 0, 0, 0.2);
-  box-shadow: 0 5px 25px -5px rgba(0, 0, 0, 0.2);
-  padding: 0.65rem 0.85rem;
+  color: #333;
+  font-size: x-large;
 }

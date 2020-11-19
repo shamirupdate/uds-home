@@ -36,24 +36,24 @@ import './index.css';
 const responsive = {
   desktop: {
     breakpoint: { max: 3000, min: 1024 },
-    items: 3,
+    items: 4,
     paritialVisibilityGutter: 60
   },
   tablet: {
     breakpoint: { max: 1024, min: 464 },
-    items: 2,
+    items: 3,
     paritialVisibilityGutter: 50
   },
   mobile: {
     breakpoint: { max: 464, min: 0 },
-    items: 1,
+    items: 2,
     paritialVisibilityGutter: 30
   }
 };
 
 export default () => (
   <Layout>
-    <section className="">
+    <section>
       <Carousel
         itemClass="image-item"
         responsive={responsive}
@@ -86,7 +86,7 @@ export default () => (
       </div>
     </section>
 
-    <section className="pt-4 md:pt-8">
+    <section className="pt-4 md:pt-8" id="voice-recording">
       <div className="container mx-auto py-1 md:py-4 px-4 sm:px-6 md:px-8 lg:px-16 xl:px-32 lg:flex section">
         <div className="text-justify section-content">
           <h1 className="section-heading text-left text-lg sm:text-xl lg:text-2xl xl:text-3xl leading-none">
@@ -108,7 +108,7 @@ export default () => (
       </div>
     </section>
 
-    <section className="pt-4 md:pt-8">
+    <section className="pt-4 md:pt-8" id="sound-effects">
       <div className="container mx-auto py-1 md:py-4 px-4 sm:px-6 md:px-8 lg:px-16 xl:px-32 lg:flex section">
         <div className="text-justify section-content">
           <h1 className="section-heading text-left text-lg sm:text-xl lg:text-2xl xl:text-3xl leading-none">
@@ -127,7 +127,7 @@ export default () => (
       </div>
     </section>
 
-    <section className="pt-4 md:pt-8">
+    <section className="pt-4 md:pt-8" id="video-editing">
       <div className="container mx-auto py-1 md:py-4 px-4 sm:px-6 md:px-8 lg:px-16 xl:px-32 lg:flex section">
         <div className="text-justify section-content">
           <h1 className="section-heading text-left text-lg sm:text-xl lg:text-2xl xl:text-3xl leading-none">
@@ -147,7 +147,7 @@ export default () => (
       </div>
     </section>
 
-    <section className="pt-4 md:pt-8">
+    <section className="pt-4 md:pt-8" id="color-grading">
       <div className="container mx-auto py-1 md:py-4 px-4 sm:px-6 md:px-8 lg:px-16 xl:px-32 lg:flex section">
         <div className="text-justify section-content">
           <h1 className="section-heading text-left text-lg sm:text-xl lg:text-2xl xl:text-3xl leading-none">
@@ -167,7 +167,7 @@ export default () => (
       </div>
     </section>
 
-    <section className="pt-4 md:pt-8">
+    <section className="pt-4 md:pt-8" id="green-matte-studio">
       <div className="container mx-auto py-1 md:py-4 px-4 sm:px-6 md:px-8 lg:px-16 xl:px-32 lg:flex section">
         <div className="text-justify section-content">
           <h1 className="section-heading text-left text-lg sm:text-xl lg:text-2xl xl:text-3xl leading-none">
@@ -188,7 +188,7 @@ export default () => (
       </div>
     </section>
 
-    <section className="pt-4 md:pt-8">
+    <section className="pt-4 md:pt-8" id="preview-theatre">
       <div className="container mx-auto py-1 md:py-4 px-4 sm:px-6 md:px-8 lg:px-16 xl:px-32 lg:flex section">
         <div className="text-justify section-content">
           <h1 className="section-heading text-left text-lg sm:text-xl lg:text-2xl xl:text-3xl leading-none">
