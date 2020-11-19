@@ -632,7 +632,7 @@ export default () => (
           <h1 className="section-heading text-left text-lg sm:text-xl lg:text-2xl xl:text-3xl leading-none">
             Visit Us
           </h1>
-        <div className="map-container">
+        <div className="map-container mt-2 lg:mt-4">
           <Iframe url="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3916.1804680796963!2d76.92991861523902!3d11.025082792153057!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba859f3649a161d%3A0x3cba30bd475d4e7a!2sUpdate%20Studios!5e0!3m2!1sen!2sus!4v1605781940076!5m2!1sen!2sus"
             width="600px"
             height="350px"
