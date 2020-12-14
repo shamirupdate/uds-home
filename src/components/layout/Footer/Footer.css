@@ -5,7 +5,8 @@
 }
 
 .logo-wrapper{
-  margin: auto;
+  display: flex;
+  gap: 5px;
 }
 
 .logo-icon {

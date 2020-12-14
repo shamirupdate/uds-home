@@ -76,51 +76,21 @@ export default () => (
       </Carousel>
     </section>
 
-    <section>
-      <div>
-        {/* <Carousel
-          additionalTransfrom={0}
-          arrows
-          autoPlaySpeed={3000}
-          centerMode={false}
-          className=""
-          containerClass="container"
-          dotListClass=""
-          draggable
-          focusOnSelect={false}
-          infinite={false}
-          itemClass=""
-          keyBoardControl
-          minimumTouchDrag={80}
-          responsive={responsive}
-          renderButtonGroupOutside={false}
-          renderDotsOutside={false}
-          showDots={false}
-          sliderClass=""
-          slidesToSlide={1}
-          swipeable
-        >
-          <WithStyles
-            description="Fixing CSS load order/style.chunk.css incorrect in Nextjs"
-            headline="w3js.com - web front-end studio"
-            image="https://images.unsplash.com/photo-1549989476-69a92fa57c36?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60"
-          />
-          <WithStyles
-            description="React Carousel with Server Side Rendering Support – Part 2"
-            headline="w3js.com - web front-end studio"
-            image="https://images.unsplash.com/photo-1549396535-c11d5c55b9df?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60"
-          />
-          <WithStyles
-            description="React Carousel with Server Side Rendering Support – Part 2"
-            headline="w3js.com - web front-end studio"
-            image="https://images.unsplash.com/photo-1550133730-695473e544be?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60"
-          />
-          <WithStyles
-            description="Fixing CSS load order/style.chunk.css incorrect in Nextjs"
-            headline="w3js.com - web front-end studio"
-            image="https://images.unsplash.com/photo-1550167164-1b67c2be3973?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60"
-          />
-        </Carousel> */}
+    <section className="pt-4 md:pt-8">
+      <div className="container mx-auto px-4 sm:px-6 md:px-8 lg:px-16 xl:px-32 lg:flex">
+        <div className="text-justify">
+          <h1 className="home-heading text-left text-lg sm:text-xl lg:text-2xl xl:text-3xl leading-none">
+            The Multimedia Hub
+          </h1>
+          <p className="home-description text-sm sm:text-base lg:text-lg mt-2 sm:mt-3 lg:mt-4
+                tracking-tighter lg:tracking-tight leading-tight lg:leading-snug">
+            Update Studios is an independent pre-production, production and post-production studio
+            that specializes in video editing, color grading, dubbing, foley recording, chroma key
+            green room studio with standard lights and equipments & preview theatre for screening
+            films and discussion purposes. The studio ensures confidentiality of the projects and
+            works for the satisfaction of the clients.
+          </p>
+        </div>
       </div>
     </section>
 
