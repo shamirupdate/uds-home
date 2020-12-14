@@ -8,7 +8,7 @@ import './Footer.css';
 
 const Footer = () => (
   <div className="footer-container">
-    <footer className="container mx-auto py-16 px-3 text-gray-800">
+    <footer className="container mx-auto py-8 lg:py-16 px-3 text-gray-800">
       <div className="flex-1 -mx-3 px-6">
         <div className="flex-1 px-3">
           <h2 className="text-sm sm:text-base lg:text-lg font-semibold">Social Media</h2>
