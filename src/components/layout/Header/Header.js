@@ -27,6 +27,7 @@ function Header(){
             </div>
             <div className="logo-description">
               <div className="logo-title">Update Studios</div>
+              <div className="logo-sub-title">The Multimedia Hub</div>
             </div>
           </div>
 

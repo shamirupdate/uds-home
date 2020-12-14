@@ -16,13 +16,12 @@
   color: #916436;
   font-family: MyCopperplate, serif;
   font-weight: 600;
-  font-size: 24px;
   line-height: 1.25em;
 }
 .f-logo-subtitle {
-  font-size: 12px;
-  color: rgba(0, 0, 0, 0.6);
+  color: #916436;
   margin-left: 2px;
+  font-family: 'MyLucida';
 }
 
 .social-link, 
@@ -37,27 +36,32 @@
 .media-link > li > a, 
 .email, 
 .mobile {
-  color: grey !important;
+  color: #9b9b9b !important;
 }
 
 .instaIcon {
-  color: #c5006c;
+  /* color: #c5006c; */
+  color: #9b9b9b;
 }
 
 .fbIcon {
-  color: #4267B2;
+  /* color: #4267B2; */
+  color: #9b9b9b;
 }
 
 .twitterIcon {
-  color: #3396E6;
+  /* color: #3396E6; */
+  color: #9b9b9b;
 }
 
 .emailIcon{
-  color: #d93025;
+  /* color: #d93025; */
+  color: #9b9b9b;
 }
 
 .mobileIcon {
-  color: #00800D;
+  /* color: #00800D; */
+  color: #9b9b9b;
 }
 
 /* .instaIcon, 

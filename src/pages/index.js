@@ -9,6 +9,7 @@ import { Image } from "semantic-ui-react";
 import InstagramEmbed from 'react-instagram-embed';
 import Iframe from 'react-iframe';
 import { BsBoxArrowUpRight } from 'react-icons/bs';
+import { FaInstagram } from 'react-icons/fa';
 
 import h1 from '../images/home-slider/home-1.jpg'
 import h2 from '../images/home-slider/home-2.jpg'
@@ -111,59 +112,17 @@ export default () => (
             advertisements, podcasts and audiobooks.
           </p>
 
-          <h3 className="insta-heading pt-2 md:pt-4 text-center text-sm sm:text-base lg:text-lg xl:text-xl leading-none tracking-tight">
-            #updatestudios_dub
-          </h3>
-
-          <div className="instaSection pt-6 pb-2">
-            <InstagramEmbed
-              url='https://www.instagram.com/p/BpMRN1bDgRJ/'
-              clientAccessToken='1812019072296010|dd9b6011d0cadb5013c3ebced773f1ca'
-              maxWidth={320}
-              hideCaption={true}
-              containerTagName='div'
-              protocol=''
-              injectScript
-              onLoading={() => {}}
-              onSuccess={() => {}}
-              onAfterRender={() => {}}
-              onFailure={() => {}}
-              className="instaPost"
-            />
-            <InstagramEmbed
-              url='https://www.instagram.com/p/BfuentcBB5E/'
-              clientAccessToken='1812019072296010|dd9b6011d0cadb5013c3ebced773f1ca'
-              maxWidth={320}
-              hideCaption={true}
-              containerTagName='div'
-              protocol=''
-              injectScript
-              onLoading={() => {}}
-              onSuccess={() => {}}
-              onAfterRender={() => {}}
-              onFailure={() => {}}
-              className="instaPost"
-            />
-            <InstagramEmbed
-              url='https://www.instagram.com/p/B31dSJSBtPY/'
-              clientAccessToken='1812019072296010|dd9b6011d0cadb5013c3ebced773f1ca'
-              maxWidth={320}
-              hideCaption={true}
-              containerTagName='div'
-              protocol=''
-              injectScript
-              onLoading={() => {}}
-              onSuccess={() => {}}
-              onAfterRender={() => {}}
-              onFailure={() => {}}
-              className="instaPost"
-            />
+          <div className="more-link-container">
+            <a href="https://www.instagram.com/explore/tags/updatestudios" 
+              aria-label="instagram tag link" 
+              className="more-link py-1 md:py-2 text-sm sm:text-base lg:text-lg" 
+              target="_blank" >View More <BsBoxArrowUpRight /></a>
+            <a className="insta-hash text-sm sm:text-base lg:text-lg" 
+              aria-label="instagram tag link"
+              href="https://www.instagram.com/explore/tags/updatestudios_dub/">
+              <FaInstagram class="insta-hash-icon text-xl sm:text-2xl lg:text-3xl"/> #updatestudios_dub 
+            </a>
           </div>
-
-          <a href="https://www.instagram.com/explore/tags/updatestudios_dub/" 
-            aria-label="instagram tag link" 
-            class="instaLink py-1 md:py-2 text-sm sm:text-base lg:text-lg" 
-            target="_blank" >View More From Feed <BsBoxArrowUpRight /></a>
         </div>
       </div>
     </section>
@@ -185,58 +144,17 @@ export default () => (
             work to deliver top-notch sound tracks for your movies without any compromise in quality.
           </p>
 
-          <h3 className="insta-heading pt-2 md:pt-4 text-center text-sm sm:text-base lg:text-lg xl:text-xl leading-none tracking-tight">
-            #updatestudios_sfx
-          </h3>
-
-          <div className="instaSection pt-6 pb-2">
-            <InstagramEmbed
-              url='https://www.instagram.com/p/B7OAahbh8IM/'
-              clientAccessToken='1812019072296010|dd9b6011d0cadb5013c3ebced773f1ca'
-              maxWidth={320}
-              hideCaption={true}
-              containerTagName='div'
-              protocol=''
-              injectScript
-              onLoading={() => {}}
-              onSuccess={() => {}}
-              onAfterRender={() => {}}
-              onFailure={() => {}}
-              className="instaPost"
-            />
-            <InstagramEmbed
-              url='https://www.instagram.com/p/Bi81ZAMBBMA/'
-              clientAccessToken='1812019072296010|dd9b6011d0cadb5013c3ebced773f1ca'
-              maxWidth={320}
-              hideCaption={true}
-              containerTagName='div'
-              protocol=''
-              injectScript
-              onLoading={() => {}}
-              onSuccess={() => {}}
-              onAfterRender={() => {}}
-              onFailure={() => {}}
-              className="instaPost"
-            />
-            <InstagramEmbed
-              url='https://www.instagram.com/p/BxASfahg5Ix/'
-              clientAccessToken='1812019072296010|dd9b6011d0cadb5013c3ebced773f1ca'
-              maxWidth={320}
-              hideCaption={true}
-              containerTagName='div'
-              protocol=''
-              injectScript
-              onLoading={() => {}}
-              onSuccess={() => {}}
-              onAfterRender={() => {}}
-              onFailure={() => {}}
-              className="instaPost"
-            />
+          <div className="more-link-container">
+            <a href="" 
+              aria-label="instagram tag link" 
+              className="more-link py-1 md:py-2 text-sm sm:text-base lg:text-lg" 
+              target="_blank" >View More <BsBoxArrowUpRight /></a>
+            <a className="insta-hash text-sm sm:text-base lg:text-lg" 
+              aria-label="instagram tag link"
+              href="https://www.instagram.com/explore/tags/updatestudios_sfx/">
+              <FaInstagram class="insta-hash-icon text-xl sm:text-2xl lg:text-3xl"/> #updatestudios_sfx
+            </a>
           </div>
-          <a href="https://www.instagram.com/explore/tags/updatestudios_sfx/" 
-            aria-label="instagram tag link" 
-            class="instaLink py-1 md:py-2 text-sm sm:text-base lg:text-lg" 
-            target="_blank" >View More From Feed <BsBoxArrowUpRight /></a>
         </div>
       </div>
     </section>
@@ -259,58 +177,17 @@ export default () => (
             services with one year of storage backup.
           </p>
 
-          <h3 className="insta-heading pt-2 md:pt-4 text-center text-sm sm:text-base lg:text-lg xl:text-xl leading-none tracking-tight">
-            #updatestudios_cuts
-          </h3>
-
-          <div className="instaSection pt-6 pb-2">
-            <InstagramEmbed
-              url='https://www.instagram.com/p/By13sNRhZ8L/'
-              clientAccessToken='1812019072296010|dd9b6011d0cadb5013c3ebced773f1ca'
-              maxWidth={320}
-              hideCaption={true}
-              containerTagName='div'
-              protocol=''
-              injectScript
-              onLoading={() => {}}
-              onSuccess={() => {}}
-              onAfterRender={() => {}}
-              onFailure={() => {}}
-              className="instaPost"
-            />
-            <InstagramEmbed
-              url='https://www.instagram.com/p/ByNoWBbhK2s/'
-              clientAccessToken='1812019072296010|dd9b6011d0cadb5013c3ebced773f1ca'
-              maxWidth={320}
-              hideCaption={true}
-              containerTagName='div'
-              protocol=''
-              injectScript
-              onLoading={() => {}}
-              onSuccess={() => {}}
-              onAfterRender={() => {}}
-              onFailure={() => {}}
-              className="instaPost"
-            />
-            <InstagramEmbed
-              url='https://www.instagram.com/p/BvitxztAUvx/'
-              clientAccessToken='1812019072296010|dd9b6011d0cadb5013c3ebced773f1ca'
-              maxWidth={320}
-              hideCaption={true}
-              containerTagName='div'
-              protocol=''
-              injectScript
-              onLoading={() => {}}
-              onSuccess={() => {}}
-              onAfterRender={() => {}}
-              onFailure={() => {}}
-              className="instaPost"
-            />
+          <div className="more-link-container">
+            <a href="" 
+              aria-label="instagram tag link" 
+              className="more-link py-1 md:py-2 text-sm sm:text-base lg:text-lg" 
+              target="_blank" >View More <BsBoxArrowUpRight /></a>
+            <a className="insta-hash text-sm sm:text-base lg:text-lg" 
+              aria-label="instagram tag link"
+              href="https://www.instagram.com/explore/tags/updatestudios_cuts/">
+              <FaInstagram class="insta-hash-icon text-xl sm:text-2xl lg:text-3xl"/> #updatestudios_cuts
+            </a>
           </div>
-          <a href="https://www.instagram.com/explore/tags/updatestudios_cuts/" 
-            aria-label="instagram tag link" 
-            class="instaLink py-1 md:py-2 text-sm sm:text-base lg:text-lg" 
-            target="_blank" >View More From Feed <BsBoxArrowUpRight /></a>
         </div>
       </div>
     </section>
@@ -333,58 +210,17 @@ export default () => (
             look to the videos using the advanced software.
           </p>
 
-          <h3 className="insta-heading pt-2 md:pt-4 text-center text-sm sm:text-base lg:text-lg xl:text-xl leading-none tracking-tight">
-            #updatestudios_color
-          </h3>
-
-          <div className="instaSection pt-6 pb-2">
-            <InstagramEmbed
-              url='https://www.instagram.com/p/BtQDOx8g_a-/'
-              clientAccessToken='1812019072296010|dd9b6011d0cadb5013c3ebced773f1ca'
-              maxWidth={320}
-              hideCaption={true}
-              containerTagName='div'
-              protocol=''
-              injectScript
-              onLoading={() => {}}
-              onSuccess={() => {}}
-              onAfterRender={() => {}}
-              onFailure={() => {}}
-              className="instaPost"
-            />
-            <InstagramEmbed
-              url='https://www.instagram.com/p/BzA0Mfshr55/'
-              clientAccessToken='1812019072296010|dd9b6011d0cadb5013c3ebced773f1ca'
-              maxWidth={320}
-              hideCaption={true}
-              containerTagName='div'
-              protocol=''
-              injectScript
-              onLoading={() => {}}
-              onSuccess={() => {}}
-              onAfterRender={() => {}}
-              onFailure={() => {}}
-              className="instaPost"
-            />
-            <InstagramEmbed
-              url='https://www.instagram.com/p/BsSRLbGjUfe/'
-              clientAccessToken='1812019072296010|dd9b6011d0cadb5013c3ebced773f1ca'
-              maxWidth={320}
-              hideCaption={true}
-              containerTagName='div'
-              protocol=''
-              injectScript
-              onLoading={() => {}}
-              onSuccess={() => {}}
-              onAfterRender={() => {}}
-              onFailure={() => {}}
-              className="instaPost"
-            />
+          <div className="more-link-container">
+            <a href="" 
+              aria-label="instagram tag link" 
+              className="more-link py-1 md:py-2 text-sm sm:text-base lg:text-lg" 
+              target="_blank" >View More <BsBoxArrowUpRight /></a>
+            <a className="insta-hash text-sm sm:text-base lg:text-lg" 
+              aria-label="instagram tag link"
+              href="https://www.instagram.com/explore/tags/updatestudios_color/">
+              <FaInstagram class="insta-hash-icon text-xl sm:text-2xl lg:text-3xl"/> #updatestudios_color
+            </a>
           </div>
-          <a href="https://www.instagram.com/explore/tags/updatestudios_color/" 
-            aria-label="instagram tag link" 
-            class="instaLink py-1 md:py-2 text-sm sm:text-base lg:text-lg" 
-            target="_blank" >View More From Feed <BsBoxArrowUpRight /></a>
         </div>
       </div>
     </section>
@@ -408,58 +244,17 @@ export default () => (
             white, black or any other color according to the customer's need.
           </p>
 
-          <h3 className="insta-heading pt-2 md:pt-4 text-center text-sm sm:text-base lg:text-lg xl:text-xl leading-none tracking-tight">
-            #updatestudios_green
-          </h3>
-
-          <div className="instaSection pt-6 pb-2">
-            <InstagramEmbed
-              url='https://www.instagram.com/p/B7CuI5bBFFW/'
-              clientAccessToken='1812019072296010|dd9b6011d0cadb5013c3ebced773f1ca'
-              maxWidth={320}
-              hideCaption={true}
-              containerTagName='div'
-              protocol=''
-              injectScript
-              onLoading={() => {}}
-              onSuccess={() => {}}
-              onAfterRender={() => {}}
-              onFailure={() => {}}
-              className="instaPost"
-            />
-            <InstagramEmbed
-              url='https://www.instagram.com/p/BoZDg4IBv0N/'
-              clientAccessToken='1812019072296010|dd9b6011d0cadb5013c3ebced773f1ca'
-              maxWidth={320}
-              hideCaption={true}
-              containerTagName='div'
-              protocol=''
-              injectScript
-              onLoading={() => {}}
-              onSuccess={() => {}}
-              onAfterRender={() => {}}
-              onFailure={() => {}}
-              className="instaPost"
-            />
-            <InstagramEmbed
-              url='https://www.instagram.com/p/BrXat8ujT2a/'
-              clientAccessToken='1812019072296010|dd9b6011d0cadb5013c3ebced773f1ca'
-              maxWidth={320}
-              hideCaption={true}
-              containerTagName='div'
-              protocol=''
-              injectScript
-              onLoading={() => {}}
-              onSuccess={() => {}}
-              onAfterRender={() => {}}
-              onFailure={() => {}}
-              className="instaPost"
-            />
+          <div className="more-link-container">
+            <a href="" 
+              aria-label="instagram tag link" 
+              className="more-link py-1 md:py-2 text-sm sm:text-base lg:text-lg" 
+              target="_blank" >View More <BsBoxArrowUpRight /></a>
+            <a className="insta-hash text-sm sm:text-base lg:text-lg" 
+              aria-label="instagram tag link"
+              href="https://www.instagram.com/explore/tags/updatestudios_green/">
+              <FaInstagram class="insta-hash-icon text-xl sm:text-2xl lg:text-3xl"/> #updatestudios_green
+            </a>
           </div>
-          <a href="https://www.instagram.com/explore/tags/updatestudios_green/" 
-            aria-label="instagram tag link" 
-            class="instaLink py-1 md:py-2 text-sm sm:text-base lg:text-lg" 
-            target="_blank" >View More From Feed <BsBoxArrowUpRight /></a>
         </div>
       </div>
     </section>
@@ -480,58 +275,18 @@ export default () => (
             theatre with REC 709 projector and Studio Monitor for film screening. It also has whiteboard
             facilities for teaching and discussion purposes.
           </p>
-          <h3 className="insta-heading pt-2 md:pt-4 text-center text-sm sm:text-base lg:text-lg xl:text-xl leading-none tracking-tight">
-            #updatestudios_theatre
-          </h3>
-          
-          <div className="instaSection pt-6 pb-2">
-            <InstagramEmbed
-              url='https://www.instagram.com/p/BqcWxbYDNgh/'
-              clientAccessToken='1812019072296010|dd9b6011d0cadb5013c3ebced773f1ca'
-              maxWidth={320}
-              hideCaption={true}
-              containerTagName='div'
-              protocol=''
-              injectScript
-              onLoading={() => {}}
-              onSuccess={() => {}}
-              onAfterRender={() => {}}
-              onFailure={() => {}}
-              className="instaPost"
-            />
-            <InstagramEmbed
-              url='https://www.instagram.com/p/BrzmdRWASYJ/'
-              clientAccessToken='1812019072296010|dd9b6011d0cadb5013c3ebced773f1ca'
-              maxWidth={320}
-              hideCaption={true}
-              containerTagName='div'
-              protocol=''
-              injectScript
-              onLoading={() => {}}
-              onSuccess={() => {}}
-              onAfterRender={() => {}}
-              onFailure={() => {}}
-              className="instaPost"
-            />
-            <InstagramEmbed
-              url='https://www.instagram.com/p/Bq88EDGg7Y0/'
-              clientAccessToken='1812019072296010|dd9b6011d0cadb5013c3ebced773f1ca'
-              maxWidth={320}
-              hideCaption={true}
-              containerTagName='div'
-              protocol=''
-              injectScript
-              onLoading={() => {}}
-              onSuccess={() => {}}
-              onAfterRender={() => {}}
-              onFailure={() => {}}
-              className="instaPost"
-            />
+
+          <div className="more-link-container">
+            <a href="" 
+              aria-label="instagram tag link" 
+              className="more-link py-1 md:py-2 text-sm sm:text-base lg:text-lg" 
+              target="_blank" >View More <BsBoxArrowUpRight /></a>
+            <a className="insta-hash text-sm sm:text-base lg:text-lg" 
+              aria-label="instagram tag link"
+              href="https://www.instagram.com/explore/tags/updatestudios_theatre/">
+              <FaInstagram class="insta-hash-icon text-xl sm:text-2xl lg:text-3xl"/> #updatestudios_theatre
+            </a>
           </div>
-          <a href="https://www.instagram.com/explore/tags/updatestudios_theatre/" 
-            aria-label="instagram tag link" 
-            class="instaLink py-1 md:py-2 text-sm sm:text-base lg:text-lg" 
-            target="_blank" >View More From Feed<BsBoxArrowUpRight /></a>
         </div>
       </div>
     </section>
@@ -616,7 +371,7 @@ export default () => (
             award-winning works.
           </p>
 
-          <p className="section-description px-8 lg:px-16 text-sm sm:text-base lg:text-lg mt-2 sm:mt-3 lg:mt-4
+          <p className="section-description mb-8 px-8 lg:px-16 text-sm sm:text-base lg:text-lg mt-2 sm:mt-3 lg:mt-4
               tracking-tighter lg:tracking-tight leading-tight lg:leading-snug">
             I'm indebted and thankful to all my customers, friends and family's feedback which
             helped me improve and achieve a lot in my career.
@@ -632,13 +387,23 @@ export default () => (
           <h1 className="section-heading text-left text-lg sm:text-xl lg:text-2xl xl:text-3xl leading-none">
             Visit Us
           </h1>
-        <div className="map-container mt-2 lg:mt-4">
-          <Iframe url="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3916.1804680796963!2d76.92991861523902!3d11.025082792153057!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba859f3649a161d%3A0x3cba30bd475d4e7a!2sUpdate%20Studios!5e0!3m2!1sen!2sus!4v1605781940076!5m2!1sen!2sus"
-            width="600px"
-            height="350px"
-            className="map"
-            display="initial"
-            position="relative"/>
+          
+          <div className="map-container mt-2 lg:mt-4">
+            <Iframe url="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3916.1804680796963!2d76.92991861523902!3d11.025082792153057!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba859f3649a161d%3A0x3cba30bd475d4e7a!2sUpdate%20Studios!5e0!3m2!1sen!2sus!4v1605781940076!5m2!1sen!2sus"
+              width="600px"
+              height="350px"
+              className="map"
+              display="initial"
+              position="relative"/>
+          </div>
+
+          <div className="map-container-lg mt-2 lg:mt-4">
+            <Iframe url="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3916.1804680796963!2d76.92991861523902!3d11.025082792153057!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba859f3649a161d%3A0x3cba30bd475d4e7a!2sUpdate%20Studios!5e0!3m2!1sen!2sus!4v1605781940076!5m2!1sen!2sus"
+              width="960px"
+              height="350px"
+              className="map"
+              display="initial"
+              position="relative"/>
           </div>
         </div> 
       </div>

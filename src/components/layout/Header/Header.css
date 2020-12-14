@@ -41,18 +41,17 @@
 
 .logo-title {
   color: #916436;
+  font-size: 24px;
   font-family: MyCopperplate, serif;
   font-weight: 600;
-  font-size: 24px;
   line-height: 1.25em;
+
 }
 
-.logo-subtitle {
+.logo-sub-title {
   font-size: 12px;
-  /* font-family: Georgia, 'Times New Roman', Times, serif; */
-  /* font-style: italic; */
-  color: rgba(0, 0, 0, 0.6);
-  /* color: whitesmoke; */
+  font-family: MyLucida;
+  color: #916436;
   margin-left: 2px;
 }
 

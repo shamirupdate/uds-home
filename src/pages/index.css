@@ -13,12 +13,17 @@
   src: local('MyCopperplateBold'), url(../fonts/Copperplate-Gothic-Bold.otf) format('truetype');
 }
 
+@font-face {
+  font-family: 'MyLucida';
+  src: local('MyLucida'), url(../fonts/LucidaHandwritingStdRg.woff) format('truetype');
+}
+
 .react-multiple-carousel__arrow {
   outline: none !important;
 }
 
 .home-heading {
-  color: #a3a3a3;
+  color: #bbbbbb;
   font-weight: 500;
 }
 
@@ -36,7 +41,7 @@
 }
 
 .section-heading {
-  color: #888;
+  color: #b3b3b3;
   font-weight: 500;
 }
 
@@ -47,6 +52,7 @@
 
 .section-description{
   color: #666666;
+  font-weight: 400;
 }
 
 /* fonts */
@@ -72,6 +78,7 @@
 .insta-heading{
   color: #916436;
   font-weight: 500;
+  margin-top: 2em;
 }
 
 
@@ -87,17 +94,61 @@
   display: inline-block;
 }
 
-.instaLink {
-  display: flex;
+.more-link-container{
+  padding: 1em 0;
+}
+
+.insta-hash {
+  height: 55px;
+  padding: 0.5em 1em;
+  float: right;
+  color: #008bb9;
+  display: inline-flex;
+}
+
+.insta-hash:hover {
+  color: #005e7e;
+}
+
+.insta-hash-icon{
+  color: #cfcfcf;
+}
+
+.more-link {
+  padding: 0.5em 1em;
+  color: #916436;
+  display: inline-flex;
   gap: 10px;
   align-items: center;
+  border: 1px solid #916436;
+  border-radius: 5px;
+  transition: ease-in-out 100ms;
+}
+
+.more-link:hover {
+  color: #fff;
+  background-color: #97734fcc;
+  border-color: #97734fcc !important;
 }
 
 .visit-content{
   width: 100%;
 }
 
-.map-container{
+.map-container, 
+.map-container-lg{
   display: flex;
   justify-content: center;
+}
+
+@media only screen and (max-width: 768px) {
+  .map-container-lg {
+    display: none !important;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .map-container {
+    display: none !important;
+  }
 }
