@@ -120,7 +120,7 @@ export default () => (
             <a className="insta-hash text-sm sm:text-base lg:text-lg" 
               aria-label="instagram tag link"
               href="https://www.instagram.com/explore/tags/updatestudios_dub/">
-              <FaInstagram class="insta-hash-icon text-xl sm:text-2xl lg:text-3xl"/> #updatestudios_dub 
+              <FaInstagram class="insta-hash-icon text-xl sm:text-2xl lg:text-3xl"/> updatestudios_dub 
             </a>
           </div>
         </div>
@@ -152,7 +152,7 @@ export default () => (
             <a className="insta-hash text-sm sm:text-base lg:text-lg" 
               aria-label="instagram tag link"
               href="https://www.instagram.com/explore/tags/updatestudios_sfx/">
-              <FaInstagram class="insta-hash-icon text-xl sm:text-2xl lg:text-3xl"/> #updatestudios_sfx
+              <FaInstagram class="insta-hash-icon text-xl sm:text-2xl lg:text-3xl"/> updatestudios_sfx
             </a>
           </div>
         </div>
@@ -185,7 +185,7 @@ export default () => (
             <a className="insta-hash text-sm sm:text-base lg:text-lg" 
               aria-label="instagram tag link"
               href="https://www.instagram.com/explore/tags/updatestudios_cuts/">
-              <FaInstagram class="insta-hash-icon text-xl sm:text-2xl lg:text-3xl"/> #updatestudios_cuts
+              <FaInstagram class="insta-hash-icon text-xl sm:text-2xl lg:text-3xl"/> updatestudios_cuts
             </a>
           </div>
         </div>
@@ -218,7 +218,7 @@ export default () => (
             <a className="insta-hash text-sm sm:text-base lg:text-lg" 
               aria-label="instagram tag link"
               href="https://www.instagram.com/explore/tags/updatestudios_color/">
-              <FaInstagram class="insta-hash-icon text-xl sm:text-2xl lg:text-3xl"/> #updatestudios_color
+              <FaInstagram class="insta-hash-icon text-xl sm:text-2xl lg:text-3xl"/> updatestudios_color
             </a>
           </div>
         </div>
@@ -252,7 +252,7 @@ export default () => (
             <a className="insta-hash text-sm sm:text-base lg:text-lg" 
               aria-label="instagram tag link"
               href="https://www.instagram.com/explore/tags/updatestudios_green/">
-              <FaInstagram class="insta-hash-icon text-xl sm:text-2xl lg:text-3xl"/> #updatestudios_green
+              <FaInstagram class="insta-hash-icon text-xl sm:text-2xl lg:text-3xl"/> updatestudios_green
             </a>
           </div>
         </div>
@@ -284,7 +284,7 @@ export default () => (
             <a className="insta-hash text-sm sm:text-base lg:text-lg" 
               aria-label="instagram tag link"
               href="https://www.instagram.com/explore/tags/updatestudios_theatre/">
-              <FaInstagram class="insta-hash-icon text-xl sm:text-2xl lg:text-3xl"/> #updatestudios_theatre
+              <FaInstagram class="insta-hash-icon text-xl sm:text-2xl lg:text-3xl"/> updatestudios_theatre
             </a>
           </div>
         </div>
