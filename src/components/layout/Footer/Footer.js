@@ -9,18 +9,7 @@ import './Footer.css';
 const Footer = () => (
   <div className="footer-container">
     <footer className="container mx-auto py-16 px-3 text-gray-800">
-      <div className="flex -mx-3">
-        <div className="flex-1 px-3">
-          <div className="logo-wrapper px-6">
-            <div className="logo-icon">
-              <LogoIcon />
-            </div>
-            <div className="logo-description">
-              <div className="f-logo-title text-xl sm:2xl lg:text-3xl">Update Studios</div>
-              <div className="f-logo-subtitle text-xs sm:text-sm lg:text-base">The Multimedia Hub</div>
-            </div>
-          </div>
-        </div>
+      <div className="flex-1 -mx-3 px-6">
         <div className="flex-1 px-3">
           <h2 className="text-sm sm:text-base lg:text-lg font-semibold">Social Media</h2>
           <ul className="mt-2 leading-loose mb-4 media-link">
@@ -37,6 +26,8 @@ const Footer = () => (
                 target="_blank"><FaTwitter class="twitterIcon"/> @shamir_uds</a>
             </li>
           </ul>
+        </div>
+        <div className="flex-1 px-3">
           <h2 className="text-sm sm:text-base lg:text-lg font-semibold">Contact</h2>
           <ul className="mt-2 leading-loose">
             <li className="mobile-icon-grp">
@@ -49,6 +40,17 @@ const Footer = () => (
             </li>
           </ul>
         </div>
+      </div>
+      <div className="flex -mx-3 mt-10">
+          <div className="logo-wrapper">
+            <div className="logo-icon">
+              <LogoIcon />
+            </div>
+            <div className="logo-description">
+              <div className="f-logo-title text-xl sm:2xl lg:text-3xl">Update Studios</div>
+              <div className="f-logo-subtitle text-xs sm:text-sm lg:text-base">The Multimedia Hub</div>
+            </div>
+          </div>
       </div>
     </footer>
   </div>
