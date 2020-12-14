@@ -123,10 +123,9 @@
 .more-link {
   color: #916436;
   display: inline-flex;
-  gap: 10px;
   align-items: center;
   border: 1px solid #916436;
-  border-radius: 5px;
+  border-radius: 2px;
   transition: ease-in-out 100ms;
 }
 

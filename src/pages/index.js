@@ -117,7 +117,7 @@ export default () => (
           <div className="more-link-container">
             <Link to="/voice-recording" aria-label="instagram tag link" 
               className="more-link py-1 md:py-2 px-2 md:px-4 text-sm sm:text-base lg:text-lg">
-              <p className="pr-0.5 md:pr-1">View More</p><BsBoxArrowUpRight /></Link>
+              <p className="pr-1 md:pr-2">View More</p><BsBoxArrowUpRight /></Link>
             <a className="insta-hash text-sm sm:text-base lg:text-lg" 
               aria-label="instagram tag link"
               href="https://www.instagram.com/explore/tags/updatestudios_dub/">
@@ -148,7 +148,7 @@ export default () => (
           <div className="more-link-container">
             <Link to="/sound-effects" aria-label="instagram tag link" 
               className="more-link py-1 md:py-2 px-2 md:px-4 text-sm sm:text-base lg:text-lg">
-              <p className="pr-0.5 md:pr-1">View More</p><BsBoxArrowUpRight /></Link>
+              <p className="pr-1 md:pr-2">View More</p><BsBoxArrowUpRight /></Link>
             <a className="insta-hash text-sm sm:text-base lg:text-lg" 
               aria-label="instagram tag link"
               href="https://www.instagram.com/explore/tags/updatestudios_sfx/">
@@ -180,7 +180,7 @@ export default () => (
           <div className="more-link-container">
             <Link to="/video-editing" aria-label="instagram tag link" 
               className="more-link py-1 md:py-2 px-2 md:px-4 text-sm sm:text-base lg:text-lg">
-              <p className="pr-0.5 md:pr-1">View More</p><BsBoxArrowUpRight /></Link>
+              <p className="pr-1 md:pr-2">View More</p><BsBoxArrowUpRight /></Link>
             <a className="insta-hash text-sm sm:text-base lg:text-lg" 
               aria-label="instagram tag link"
               href="https://www.instagram.com/explore/tags/updatestudios_cuts/">
@@ -212,7 +212,7 @@ export default () => (
           <div className="more-link-container">
             <Link to="/color-grading" aria-label="instagram tag link" 
               className="more-link py-1 md:py-2 px-2 md:px-4 text-sm sm:text-base lg:text-lg">
-              <p className="pr-0.5 md:pr-1">View More</p><BsBoxArrowUpRight /></Link>
+              <p className="pr-1 md:pr-2">View More</p><BsBoxArrowUpRight /></Link>
             <a className="insta-hash text-sm sm:text-base lg:text-lg" 
               aria-label="instagram tag link"
               href="https://www.instagram.com/explore/tags/updatestudios_color/">
@@ -245,7 +245,7 @@ export default () => (
           <div className="more-link-container">
             <Link to="/green-matte" aria-label="instagram tag link" 
               className="more-link py-1 md:py-2 px-2 md:px-4 text-sm sm:text-base lg:text-lg">
-                <p className="pr-0.5 md:pr-1">View More</p><BsBoxArrowUpRight /></Link>
+                <p className="pr-1 md:pr-2">View More</p><BsBoxArrowUpRight /></Link>
             <a className="insta-hash text-sm sm:text-base lg:text-lg" 
               aria-label="instagram tag link"
               href="https://www.instagram.com/explore/tags/updatestudios_green/">
@@ -276,7 +276,7 @@ export default () => (
           <div className="more-link-container">
             <Link to="/preview-theatre" aria-label="instagram tag link" 
               className="more-link py-1 md:py-2 px-2 md:px-4 text-sm sm:text-base lg:text-lg">
-              <p className="pr-0.5 md:pr-1">View More</p><BsBoxArrowUpRight/>
+              <p className="pr-1 md:pr-2">View More</p><BsBoxArrowUpRight/>
             </Link>
             <a className="insta-hash text-sm sm:text-base lg:text-lg" 
               aria-label="instagram tag link"
