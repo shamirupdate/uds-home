@@ -41,7 +41,7 @@
 
 .logo-title {
   color: #916436;
-  font-size: 24px;
+  font-size: 22px;
   font-family: MyCopperplate, serif;
   font-weight: 600;
   line-height: 1.25em;
@@ -49,10 +49,13 @@
 }
 
 .logo-sub-title {
-  font-size: 12px;
+  font-size: 10px;
   font-family: MyLucida;
   color: #916436;
   margin-left: 2px;
+  margin: 0 auto;
+  display: table;
+  line-height: 8px;
 }
 
 .burger-menu {
