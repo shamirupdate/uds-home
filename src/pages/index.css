@@ -104,6 +104,7 @@
   float: right;
   color: #008bb9;
   display: inline-flex;
+  transition: ease-in-out 100ms;
 }
 
 .insta-hash:hover {
@@ -112,6 +113,10 @@
 
 .insta-hash-icon{
   color: #cfcfcf;
+}
+
+.insta-hash:hover .insta-hash-icon{
+  color: #bbbbbb;
 }
 
 .more-link {
@@ -127,8 +132,7 @@
 
 .more-link:hover {
   color: #fff;
-  background-color: #97734fcc;
-  border-color: #97734fcc !important;
+  background-color: #916436;
 }
 
 .visit-content{

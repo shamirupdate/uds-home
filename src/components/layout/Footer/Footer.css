@@ -4,24 +4,39 @@
   padding-bottom: 2em;
 }
 
+.logo-wrapper{
+  float: left;
+}
+
 .logo-icon {
-  width: 4rem;
+  width: 3rem;
+  margin: 0 auto;
 }
 
 .logo-description {
   margin-top: 3px;
+  display: flex;
+  flex-direction: column;
 }
 
 .f-logo-title {
   color: #916436;
+  font-size: 22px;
   font-family: MyCopperplate, serif;
   font-weight: 600;
   line-height: 1.25em;
+  margin: 0 auto;
+  display: inline-block;
 }
+
 .f-logo-subtitle {
+  font-size: 10px;
+  font-family: MyLucida;
   color: #916436;
   margin-left: 2px;
-  font-family: 'MyLucida';
+  margin: 0 auto;
+  display: inline-block;
+  line-height: 8px;
 }
 
 .social-link, 
@@ -40,34 +55,41 @@
 }
 
 .instaIcon {
-  /* color: #c5006c; */
   color: #818181;
 }
 
 .fbIcon {
-  /* color: #4267B2; */
   color: #818181;
 }
 
 .twitterIcon {
-  /* color: #3396E6; */
   color: #818181;
 }
 
 .emailIcon{
-  /* color: #d93025; */
   color: #818181;
 }
 
 .mobileIcon {
-  /* color: #00800D; */
   color: #818181;
 }
 
-/* .instaIcon, 
-.fbIcon, 
-.twitterIcon, 
-.emailIcon, 
-.mobileIcon {
-  opacity: 0.86;
-} */
+.insta-icon-grp:hover .instaIcon {
+  color: #c5006c;
+}
+
+.fb-icon-grp:hover .fbIcon {
+  color: #4267B2;
+}
+
+.twitter-icon-grp:hover .twitterIcon {
+  color: #3396E6;
+}
+
+.email-icon-grp:hover .emailIcon {
+  color: #d93025;
+}
+
+.mobile-icon-grp:hover .mobileIcon {
+  color: #00800D;
+}
