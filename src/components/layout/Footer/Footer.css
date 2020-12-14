@@ -45,9 +45,7 @@
 .mobile,
 .email {
   display: flex;
-  gap: 0.5em;
   align-items: center;
-
 }
 
 .media-link > li > a, 
@@ -56,24 +54,19 @@
   color: #818181 !important;
 }
 
-.instaIcon {
-  color: #818181;
-}
-
-.fbIcon {
-  color: #818181;
-}
-
+.instaIcon, 
+.fbIcon,
 .twitterIcon {
-  color: #818181;
+  font-size: 1.1em;
 }
 
-.emailIcon{
-  color: #818181;
-}
-
+.instaIcon, 
+.fbIcon,
+.twitterIcon,
+.emailIcon, 
 .mobileIcon {
   color: #818181;
+  margin-right: 5px;
 }
 
 .insta-icon-grp:hover .instaIcon {

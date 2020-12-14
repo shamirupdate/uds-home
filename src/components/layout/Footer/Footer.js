@@ -15,15 +15,15 @@ const Footer = () => (
           <ul className="mt-2 leading-loose mb-4 media-link">
             <li className="insta-icon-grp">
               <a className="icons social-link text-sm sm:text-base lg:text-lg" href="https://www.instagram.com/updatestudios/" 
-                target="_blank"><FaInstagram class="instaIcon"/> #updatestudios</a>
+                target="_blank"><FaInstagram class="instaIcon"/>#updatestudios</a>
             </li>
             <li className="fb-icon-grp">
               <a className="icons social-link text-sm sm:text-base lg:text-lg" href="https://www.facebook.com/updatestudios/"
-                target="_blank"><FaFacebookSquare class="fbIcon"/> updatestudios</a>
+                target="_blank"><FaFacebookSquare class="fbIcon"/>updatestudios</a>
             </li>
             <li className="twitter-icon-grp">
               <a className="icons social-link text-sm sm:text-base lg:text-lg" href="https://twitter.com/Shamir_uds"
-                target="_blank"><FaTwitter class="twitterIcon"/> @shamir_uds</a>
+                target="_blank"><FaTwitter class="twitterIcon"/>@shamir_uds</a>
             </li>
           </ul>
         </div>
@@ -32,11 +32,11 @@ const Footer = () => (
           <ul className="mt-2 leading-loose">
             <li className="mobile-icon-grp">
               <a href="tel:9940-760-786" class="icons mobile text-sm sm:text-base lg:text-lg"
-                target="_blank"><FaPhoneAlt class="mobileIcon"/> 9940-760-786</a>
+                target="_blank"><FaPhoneAlt class="mobileIcon"/>9940-760-786</a>
             </li>
             <li className="email-icon-grp">
               <a href="mailto:shamir@updatestudios.com" class="icons email text-sm sm:text-base lg:text-lg" 
-                rel="noopener" aria-label="Mail" target="_blank"><SiGmail class="emailIcon"/> shamir@updatestudios.com</a>
+                rel="noopener" aria-label="Mail" target="_blank"><SiGmail class="emailIcon"/>shamir@updatestudios.com</a>
             </li>
           </ul>
         </div>
