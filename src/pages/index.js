@@ -113,14 +113,13 @@ export default () => (
           </p>
 
           <div className="more-link-container">
-            <a href="https://www.instagram.com/explore/tags/updatestudios" 
+            <Link to="/voice-recording" 
               aria-label="instagram tag link" 
-              className="more-link py-1 md:py-2 text-sm sm:text-base lg:text-lg" 
-              target="_blank" >View More <BsBoxArrowUpRight /></a>
+              className="more-link py-1 md:py-2 text-sm sm:text-base lg:text-lg">View More <BsBoxArrowUpRight /></Link>
             <a className="insta-hash text-sm sm:text-base lg:text-lg" 
               aria-label="instagram tag link"
               href="https://www.instagram.com/explore/tags/updatestudios_dub/">
-              <FaInstagram class="insta-hash-icon text-xl sm:text-2xl lg:text-3xl"/> updatestudios_dub 
+              <FaInstagram class="insta-hash-icon text-xl sm:text-2xl lg:text-3xl"/>updatestudios_dub 
             </a>
           </div>
         </div>
@@ -145,10 +144,9 @@ export default () => (
           </p>
 
           <div className="more-link-container">
-            <a href="" 
+            <Link to="/sound-effects" 
               aria-label="instagram tag link" 
-              className="more-link py-1 md:py-2 text-sm sm:text-base lg:text-lg" 
-              target="_blank" >View More <BsBoxArrowUpRight /></a>
+              className="more-link py-1 md:py-2 text-sm sm:text-base lg:text-lg">View More <BsBoxArrowUpRight /></Link>
             <a className="insta-hash text-sm sm:text-base lg:text-lg" 
               aria-label="instagram tag link"
               href="https://www.instagram.com/explore/tags/updatestudios_sfx/">
@@ -178,10 +176,9 @@ export default () => (
           </p>
 
           <div className="more-link-container">
-            <a href="" 
+            <Link to="/video-editing" 
               aria-label="instagram tag link" 
-              className="more-link py-1 md:py-2 text-sm sm:text-base lg:text-lg" 
-              target="_blank" >View More <BsBoxArrowUpRight /></a>
+              className="more-link py-1 md:py-2 text-sm sm:text-base lg:text-lg">View More <BsBoxArrowUpRight /></Link>
             <a className="insta-hash text-sm sm:text-base lg:text-lg" 
               aria-label="instagram tag link"
               href="https://www.instagram.com/explore/tags/updatestudios_cuts/">
@@ -211,10 +208,9 @@ export default () => (
           </p>
 
           <div className="more-link-container">
-            <a href="" 
+            <Link to="/color-grading" 
               aria-label="instagram tag link" 
-              className="more-link py-1 md:py-2 text-sm sm:text-base lg:text-lg" 
-              target="_blank" >View More <BsBoxArrowUpRight /></a>
+              className="more-link py-1 md:py-2 text-sm sm:text-base lg:text-lg">View More <BsBoxArrowUpRight /></Link>
             <a className="insta-hash text-sm sm:text-base lg:text-lg" 
               aria-label="instagram tag link"
               href="https://www.instagram.com/explore/tags/updatestudios_color/">
@@ -245,10 +241,9 @@ export default () => (
           </p>
 
           <div className="more-link-container">
-            <a href="" 
+            <Link to="/green-matte" 
               aria-label="instagram tag link" 
-              className="more-link py-1 md:py-2 text-sm sm:text-base lg:text-lg" 
-              target="_blank" >View More <BsBoxArrowUpRight /></a>
+              className="more-link py-1 md:py-2 text-sm sm:text-base lg:text-lg">View More <BsBoxArrowUpRight /></Link>
             <a className="insta-hash text-sm sm:text-base lg:text-lg" 
               aria-label="instagram tag link"
               href="https://www.instagram.com/explore/tags/updatestudios_green/">
@@ -277,10 +272,9 @@ export default () => (
           </p>
 
           <div className="more-link-container">
-            <a href="" 
+            <Link to="/preview-theatre" 
               aria-label="instagram tag link" 
-              className="more-link py-1 md:py-2 text-sm sm:text-base lg:text-lg" 
-              target="_blank" >View More <BsBoxArrowUpRight /></a>
+              className="more-link py-1 md:py-2 text-sm sm:text-base lg:text-lg">View More <BsBoxArrowUpRight /></Link>
             <a className="insta-hash text-sm sm:text-base lg:text-lg" 
               aria-label="instagram tag link"
               href="https://www.instagram.com/explore/tags/updatestudios_theatre/">

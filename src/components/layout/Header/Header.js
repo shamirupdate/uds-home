@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'gatsby';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 import { BsList, BsX } from 'react-icons/bs';
 
@@ -21,16 +22,17 @@ function Header(){
     <header className="sm:sticky top-0 bg-white shadow header-container">
       <div className="container flex flex-col sm:flex-row justify-between lg:items-center mx-auto py-2 px-6 md:px-8">
         <div className="header-logo">
-          <div className="flex items-center text-2xl">
-            <div className="logo-full mr-3">
-              <LogoIcon />
+          <Link to='/'>
+            <div className="flex items-center text-2xl">
+              <div className="logo-full mr-3">
+                <LogoIcon />
+              </div>
+              <div className="logo-description">
+                <div className="logo-title">Update Studios</div>
+                <div className="logo-sub-title">The Multimedia Hub</div>
+              </div>
             </div>
-            <div className="logo-description">
-              <div className="logo-title">Update Studios</div>
-              <div className="logo-sub-title">The Multimedia Hub</div>
-            </div>
-          </div>
-
+          </Link>
           <button
             className="flex lg:hidden items-center rounded burger-menu"
             onClick={handleClick}
